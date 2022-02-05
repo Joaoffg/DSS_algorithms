@@ -1,1054 +1,0 @@
-﻿
-
-
-
-A small series of serendipity
-Balancing serendipity in the algorithmic recommendation design of video-on-demand layouts based on consumer characteristics
-
-
-
-
-
-
-Student name:		Anne Claire Kofflard
-Student number:		386160
-
-Supervisor: 			Dr. João Ferreira Goncalves 
-
-Media & Creative Industries
-Erasmus School of History, Culture and Communication 
-Erasmus University Rotterdam
-
-Master Thesis
-June 29th 2020
-
-A small series of serendipity 
-Balancing serendipity in the algorithmic recommendation design of video-on-demand layouts based on consumer characteristics
-
-ABSTRACT
-
-      Recommendation systems are a common tool to guide consumers through information and product overload in online environments. The evolving market of video-on-demand (VOD) embraced the prospect of recommendation systems and is continuously searching to enhance its performance. The implementation of serendipity in recommendation systems is increasingly linked as a solution for the issue of filter bubbles and to assess and evaluate user satisfaction within VOD platforms. However, the concept of serendipity introduces complexity in analyzing its implementation, due to its subjective essence and absence of an academic definition and measurement. This thesis provides a literary foundation on recommendation systems, consideration of particular consumer characteristics in user profiles, and a definition and measurement of serendipity. Therefore, this thesis’s objective is to establish the role and level of serendipity in VOD environments for consumers that present particular characteristics by following the research question: To what extent do users perceive and are affected by serendipity in VOD layouts?.
-      Similar to correlated literature, a quantitative approach is employed with data collecting through the distribution of a survey that includes a quasi-experiment. The data is gathered amongst VOD consumers that possess a user profile without the interference of others. Statistical analysis is performed with the help of SPSS and found that two serendipity items, instead of three, are applicable in the research design. The serendipity elements of novelty and unexpectedness are combined, while relevance is separately considered. 
-      Concluded from the insignificant paths between consumer characteristics and both serendipity elements, the findings of this thesis indicate the inability of consumers to perceive serendipity in their personalized VOD environment and a 100% serendipity stimulus. The main results indicate that the serendipity component of relevance records the most substantial mediating effect on the performance of the recommendation systems, measured by means of user satisfaction. To known knowledge, this thesis is the second attempt that considers the need for serendipity for specific consumer characteristics in VOD environments. By including the presented consumer characteristics in user profiles, the coping ability and need for serendipity are reflected in the algorithmic design and, therefore, the personalized VOD interface. The implementation of serendipity based on consumer characteristics helps consumers to broaden their preferences and VOD companies to increasingly set foot in the evolving market. 
-KEYWORDS: Serendipity, VOD companies, recommendation systems, consumer characteristics 
-TABLE OF CONTENT
-
-1. INTRODUCTION	5
-2. THEORETICAL FRAMEWORK	9
-2.1 VIDEO-ON-DEMAND LAYOUT	9
-2.2 RECOMMENDATION SYSTEMS	13
-2.3 CONSUMER CHARACTERISTICS	17
- 2.3.1 BINGE-WATCH BEHAVIOR	18
- 2.3.2 KNOWLEDGEABLE CONSUMERS	19
- 2.3.3 BROAD INTEREST IN GENRE	20
- 2.3.4 USERS’ NEED FOR UNIQUENESS	21
- 2.3.5. USER PERCEPTION OF VOD LAYOUTS	22
-2.4 SERENDIPITY	22
- 2.4.1 NOVELTY	23
- 2.4.2 UNEXPECTEDNESS	24
- 2.4.3 RELEVANCE	24
-2.5 CONCEPTUAL FRAMEWORK	26
-3. METHOD	27
-3.1 METHODOLOGICAL APPROACH	27
-3.2 RESEARCH DESIGN	27
- 3.2.1 SURVEY STRUCTURE	28
- 3.2.2 STIMULUS	29
- 3.2.3 DATA COLLECTION	30
-3.3 DESCRIPTIVE STATISTICS	32
- 3.3.1 DESCRIPTIVE STATISTICS: RESPONDENTS	32
- 3.3.2 DESCRIPTIVE STATISTICS: VOD PLATFORMS	33
-3.4 VARIABLES AND RELIABILITY	34
- 3.4.1 CONSUMER CHARACTERISTICS	35
- 3.4.2 SERENDIPITY	40
- 3.4.3 USER PERCEPTION OF VOD LAYOUTS	42
- 3.4.4 CONTROL VARIABLES	43
-3.5 RELIABILITY AND VALIDITY	44
-4. RESULTS	47
-4.1 ASSUMPTION CHECK	47
-4.2 MEDIATION MODEL OF THE SERENDIPITY SCALE BEFORE THE STIMULUS	49
- 4.2.1 DIRECT EFFECT OF CONSUMER CHARACTERISTICS AND USER SATISFACTION	50
- 4.2.2 MEDIATION EFFECT BEFORE THE STIMULUS	52
- 4.2.3 CONDITIONAL EFFECTS	54
-4.3 MEDIATION MODEL OF THE SERENDIPITY SCALE AFTER THE STIMULUS	56
- 4.3.1 DIRECT EFFECT OF CONSUMER CHARACTERISTICS AND USER SATISFACTION	57
- 4.3.2 MEDIATION EFFECT	58
- 4.3.3 CONDITIONAL EFFECTS	60
-4.4 HYPOTHESIS TESTING	62
-5. DISCUSSION	64
-5.1 LITERATURE IMPLICATIONS	64
- 5.1.1 THE PERCEPTION OF SERENDIPITY	64
- 5.1.2 THE MEDIATING ROLE OF SERENDIPITY	66
- 5.1.3 USER SATISFACTION IN VOD ENVIRONMENTS	68
-5.2 INSTITUTIONAL IMPLICATION	69
-5.3 LIMITATIONS	70
-5.4 FUTURE RESEARCH	71
-6. CONCLUSION	73
-REFERENCES	75
-APPENDIX A. SURVEY	85
-APPENDIX B. LINKS STIMULUS	96
-APPENDIX C. DESCRIPTIVE STATISTICS	99
-
-
-1. INTRODUCTION
-
-      The concept of serendipity is long ago introduced in different academic fields. The accidental discovery of new medicine, such as penicillin and Viagra (Golin, 1957; Ban, 2006), the entrepreneurial success based on random coincidences (Dew, 2009), and finding unsought art (Van Andel, 1994) are all examples of serendipity. A fairytale understanding of serendipity in The Three Princess of Serendip (1758) by Horace Walpole explained serendipity as accidental discoveries on is not searching for (Kotkov, Veijalainen & Wang, 2018b). Although the definition of serendipity across disciplinary fields moderately differs, overlap is identified within the importance of connection building, discovery, and creativity (Foster & Ford, 2003). However, no consensus is found regarding a concrete and clear definition of serendipity and the measurement thereof. Especially since its introduction in news and information recommendation systems, and more recently, recommendation systems within e-commerce environments and streaming platforms, the concept of serendipity is becoming increasingly vague (Ricci, Rokach & Shapira, 2012). A recommendation system is a tool used by, for example, streaming platforms that engage in the problem of information and product overload (Vozalis & Margaritis, 2003). These recommendation systems provide personalized content based on multiple filtering techniques and implementation of different evaluation concepts, such as utility, diversity, and serendipity, to increase its performance (Kotkov et al., 2018b; Silveira, Zhang, Lin, Liu & Ma, 2019).
-      The evaluation concept of serendipity is relatively new compared to previously mentioned concepts in recommendation systems (Yu, Wang, Fan, Meng and Huang, 2017). Lacking a definition and measurement, scholars continuously attempt to contribute to the debate of serendipity. Maccatrozzo, Terstall, Aroyo and Schreiber (2017b, p. 35) explain serendipity in television recommender systems as ‘making pleasant and relevant discovery that was unexpected’. Such serendipitous recommendations are perceived by a consumer as a positive surprise that shows unfamiliar but attractive content (Matt, Benlian, Hess & Weiß, 2014). Derived from Kotkov et al. (2018b), the article by Saat, Noah and Mohd (2018) describe and measure serendipity in recommendation systems using three components: relevance, unexpectedness, and novelty. These components measure the similarity between the item and user, the level of satisfaction when finding unexpected items, and the familiarity of the item. 
-      Recommendation systems within streaming platforms are becoming more important as the competition rises. Especially in the video-on-demand (VOD) market, data gathering, profiling, and selective filtering are an everyday business (O’Reilly, 2009; Möller, Trilling, Helberger & van Es, 2018). A recommendation system that provides the most appealing platform layout can persuade consumers to choose a particular video streaming service (Ricci et al., 2012). In this recommendation system, serendipity plays an important role, as it might provide satisfactory content to users that they otherwise would not have found while navigating on their own (Kotkov et al., 2018b; Maccatrozzo, van Everdingen, Aroyo & Schreiber, 2017a). 
-      The creation of personalized recommendations is based on online consumer behavior and other consumer data, such as demographic information that is collected in a user profile (Bozdag, 2015). The subjective nature of serendipity makes the implementation different than other evaluation metrics, such as accuracy. Some consumers with particular preferences are in need of a higher level of serendipity in order to be satisfied with provided recommendations by VOD companies. To illustrate, Maccatrozzo et al. (2017a) argue that curious consumers require a higher level of serendipity in their provided recommendations because they have a higher coping ability towards novel items. This thesis continues on the research objective by Maccatrozzo et al. (2017a) through the introduction of four additional consumer characteristics: (1) hours spent on VOD platforms, (2) knowledgeable consumers, (3) broad interest in genre, and (4) users’ need for uniqueness. Therefore, the following research question is constructed:
-      
-To what extent do users perceive and are affected by serendipity in VOD layouts?
-   
-      The importance of serendipity within a recommender system lies in the prevention of the filter bubble, a concept introduced by Pariser (2011). The invisible digital borders of the filter bubble provide selective and personalized recommendations that create an isolated algorithmic culture and shape one-sided perceptions of the daily news (Hallinan & Striphas, 2014). An example of a negative implication of the filter bubble is an ideological polarized news content bubble during the 2016 Presidential Election in the United States on Facebook. Here, Republicans and Democrats were confronted continuously with one-sided news revolving around public discourse and political information congruent with their ideological point of view (Spohr, 2017). Another example is the recent discovery of a pedophile network as YouTube created with the help of its recommender system. Once a video is watched regarding some form of exploitation of children, the recommendation algorithm suggests the next video with slightly more extreme content. Hence, the algorithmic design of YouTube proved to be, accidentally, helpful for pedophiles (Eordogh, 2019; Orphanides, 2019). The solution for these examples: serendipity. Recommendation systems guide consumers through product and information overloaded platforms. Therefore, they influence what we consume. Better performance of recommendation system through the implementation of serendipity can make suggestions of content to educate and present a broader perspective on structural mindsets (Hallinan & Striphas, 2014). 
-      By examining serendipity in VOD recommendation systems, awareness is raised regarding diversity in content. This can be illustrated by the following. In the past years, the number of subscribers to video-on-demand services steadily developed together with the time subscribers spent watching content (Jenner, 2015). Therefore, the content provided by these platforms increasingly influences our choices and thoughts, as 80% that is consumed is derived from recommendations (Gomez-Uribe & Hunt, 2015), and one is likely to believe the content one watches. Also, due to the content overload of VOD catalogs, consumers are increasingly overdependent on algorithmic suggestions (Banker & Khetani, 2019). Bursting the filter bubble and highlighting concepts from different viewpoints contributes to a better understanding of, for example, cultures other than one’s own (Hallinan & Striphas, 2014).
-      On the one hand, for the consumer of video streaming platforms, the relevance of this study is to become aware of the content that shapes the filter bubble that limits their interests and perspectives. Consequently, consumers are stimulated to broaden their horizon and increase serendipity in their recommendations by breaking the pattern of the algorithm and search for content that they normally discard (Maccatrozzo et al., 2017b). On the other hand, for VOD companies, the relevance of this thesis is the evaluation of algorithmic designs, with a renewed perspective on the implementation of serendipity, in order to increase the provided recommendation service. 
-      Although the concept of serendipity in different fields is broadly explored, such as entrepreneurship and medicine, research concerning serendipity within recommender systems of VOD platforms is lacking. One of the reasons for this deficient research is due to the absence of some sort of tool to analyze serendipity (Saat et al., 2018) and the mysteriousness around algorithms from VOD corporations, such as Netflix (Hallinan & Striphas, 2014). The study by Maccatrozzo et al. (2017a) is the first step to uncover the need for serendipitous items based on the personality trait of curiosity. This thesis goes one step further by adding consumer characteristics that potentially affect the evaluation of recommendation systems due to the coping ability to perceive serendipitous items. 
-      As stated above, this study focuses on the concept of serendipity presented in the layout of video-on-demand platforms from a consumer’s approach. To address the research gap, multiple definitions and measurements of serendipity in video-on-demand recommendation systems are explored and combined in one definition and three components of measurements. The influence of the measurements on user satisfaction is tested by means of an online survey distributed amongst video-on-demand users. The remainder of this thesis will be structured as follows. First, previous research on VOD layouts, recommendation systems, and consumer characteristics in user profiles is discussed together with the formulation of testable hypotheses. Next, the research method of this study is explained, providing further insight into the sample and the data. Third, the results are presented and interpreted. Subsequently, the objective of this thesis is discussed extensively by using the findings. Fifth, contributions to literature and managerial implications, limitations, and future research are discussed. Finally, the conclusion addresses the research question once more.
-      
-
-2. THEORETICAL FRAMEWORK
-	
-      The following chapter discusses the existing academic literature regarding the perception of serendipity in recommendation systems of Video-on-demand (VOD) companies. First, the background information on the industry of VOD and the construction of their interfaces are described. Second, an overview of the relevant recommendation systems, in the context of VOD platforms, is presented, and the importance of serendipity-greedy algorithms is underlined. Third, four different consumer characteristics that construct user profiles and affect the perception of serendipity, are presented. Next, the concept of serendipity, including the three dimensions of serendipity, is analyzed. Subsequently, by investigating previous academic literature on the field of VOD layouts, the construction of recommendation systems, and serendipity in user profiles based on consumer characteristics, hypotheses are designed that answer the central research question. To conclude, a conceptual framework including all stated hypothesis is presented, where serendipity acts as a mediating variable between consumer characteristics and the perception of VOD layouts. 
-
-      2.1 Video-on-demand layout
-      Video-on-demand (VOD) companies changed the way we watch television. Due to the digitalization of television, a new era of consuming TV content enables consumers to watch television whenever they want, wherever they want (Jenner, 2014; Maccatrozzo et al., 2017a). Wayne (2018, p. 729) describes VOD as a platform that provides access ‘to television content and acting as a gateway for viewers’. Due to easy access to TV content and the easy to understand interfaces on multiple devices, such as mobile phones and tablets (Maccatrozzo et al., 2017a), consumers watch more content for a longer period (Matrix, 2014). This binge-watching behavior is characterized by self-scheduled sequential consumption of multiple episodes without advertisement breaks and required attention of the consumer (Horeck, Jenner & Kendall, 2018).
-      The global introduction of VOD companies has not only changed the way consumers watch television; it changed the entire television industry. As an idea borrowed from the concept pay-per-view, VOD set foot as an online video streaming distributor that released films before the DVD release (Hilderbrand, 2010). Nowadays, VOD companies, such as Netflix1, Amazon Prime Video2, Hulu3 and the Dutch Videoland,4 create their own content. An example is the Netflix Original House of Cards. Additional to their operations as a movie and series distributor, VOD companies exhibit (Jenner, 2014) and collect consumer data for the benefit of their consumers (Bennett & Lanning, 2007). In this research, the focus is on the collection of consumer data by VOD companies, as this data forms recommendation systems that structure VOD layouts. Gathering and compiling data is realized by the implementation of publication models and layouts that stimulate binge-watching and manipulate the consumers’ viewing behavior (Jenner, 2015). This data helps to improve the customer experience by, for example, guiding the consumer through the movie catalog with the help of personalized recommendations and a consumer-friendly interface (Ricci et al., 2012; Gomez-Uribe & Hunt, 2015).
-      With the launch of Disney+5 in November 2019, the dynamics of the VOD industry, with Netflix as a leader, changed (Barnes, 2019). In 2018, almost 40 million people in the US were subscribed to Netflix and 25 million to Amazon Prime Video (Statista Research Department, 2020b). In February 2020, three months after their launch, Disney+ hit the mark of 28.6 million global subscribers (Barnes, 2020). To stand out on the VOD market, companies such as Netflix and Disney+ aim to provide high-quality original content.  Additionally, the companies aim to provide an accurate recommendation system, the most appealing and most accessible platform layout (Almeida Lima, Gouveia Moreira & Costa Calazans, 2015; Johnson, 2017). 
-      Due to the rise of competition in the video-on-demand industry, accurate recommendation systems and easy to understand VOD layouts are becoming increasingly important, as they contribute to the choice of platform consumers, by providing a positive user experience (Ricci et al., 2012; Pripužić, Žarko, Podobnik, Lovrek, Čavka, Petković, … Gojčeta, 2013; Gomez-Uribe & Hunt, 2015). Layouts or interfaces of VOD platforms can be characterized as an interactive space with online TV content. Within this space ‘the logics of broadcasting meet the possibilities of programming, software and algorithms in ways that shape and construct the experience of TV online’ (Johnson, 2017, p. 123). The layout is continuously updated according to the viewing habits of the consumer and the provided content by VOD companies corresponds to timeframes or particular days (Johnson, 2017). VOD layouts consist of different algorithmic elements that contribute to the accessibility, navigation design, personalization, and general optimization of the entire page (Ricci et al., 2012). 
-      The analysis of VOD layouts has been underrepresented in the literature. However, research regarding interfaces in general is applied for marketing purposes to uncover consumer decision-making. For example, consideration sets are used in e-commerce environments to manipulate the choice of the consumer within an information-overloaded platform (Malhotra, 1982; Häubl & Trifts, 2000). Consumers purposefully search for familiar products and are presented with multiple similar alternatives. In this way, consumers can choose similar unfamiliar brands that perhaps better fit with their preferences, and therefore, maximize user satisfaction (Shocker, Ben-Akiva, Boccara & Nedungadi, 1991; Häubl & Trifts, 2000; Bhattacharya, Gollapudi & Munagala, 2011). 
-      Consumers within a VOD environment are faced with information overload as well. VOD subscribers are overwhelmed when they are presented with too many options and quickly lose their interest after 60 to 90 seconds in their chosen TV content (Gomez-Uribe & Hunt, 2015). VOD interfaces provide consumers with similar content when they purposefully search for items in the catalog (Häubl & Trifts, 2000; Ricci et al., 2012). This consideration set recommending similar content is extended by other sets of recommendation algorithms that guide consumers without specified search preferences. These recommendations shape VOD interfaces to stimulate binge-watching and maximize user satisfaction (Ricci et al., 2012; Jenner, 2015).
-      To illustrate, as the leader in the VOD industry and precursor of VOD recommendation systems, Netflix is the most common case study for scholars regarding data-driven interfaces of such platforms (Berry, Fazzio, Zhou, Scott & Francisco-Revilla, 2010; Ricci et al., 2012; Hallinan & Striphas, 2014; Gomez-Uribe & Hunt, 2015). The fact that Netflix values their position in the market and aims to improve and develop their recommendation system within their layout is reflected in the Netflix Prize. The Netflix Prize ‘challenged the data mining, machine learning and computer science communities to develop systems that could beat the accuracy of Cinematch by certain amounts’ (Bennett & Lanning, 2007, p. 3). The interface of Netflix is generated through ranking and row selection constructed by popularized and personalized recommendations. For example, similar to the consideration set presented in e-commerce platforms (Häubl & Trifts, 2000; Bhattacharya, Gollapudi & Munagala, 2011; Gomez-Uribe & Hunt, 2015), Netflix provides similar alternatives in the ‘Because You Watched’ rows based on a particular film or series. This row is constructed through previously watched content and personalized tags, such as genre, director, or actors. Within the personalized genre rows, three layers of personalization are included: the genre, a subgroup of videos selected within that genre, and the rank that predicts the level of enjoyment for each consumer. The possible high level of unfamiliar items in personalized rows is balanced with the implementation of popular items. Popularity items are included in personalized rows, and popularity rows, such as a top 10, are displayed. Netflix even takes one step further by incorporating impression and presentation data to measure user’s responses on different types of TV content presentations to match the user’s preferences to their own interface (Ricci et al., 2012; Gomez-Uribe & Hunt, 2015). Derived from consumer data, the complex and variant algorithms bundle their homepage and ‘define the Netflix experience’ (Gomez-Uribe & Hunt, 2015, p. 13:2).
-      Amazon, an e-commerce platform, suggested recommendations to their customers before the establishment of the video streaming platform Amazon Prime Video (Jenner, 2015). Due to the increased use of video-on-demand, Amazon Prime Video started to create popular in-house productions, such as Golden Globe winner Fleabag, offering live television and distributing other TV content in their catalog. Compared to the interface of Netflix, Amazon Prime Video is less sophisticated and less focused on the constant improvement of user experience and satisfaction. Similar to Netflix, the Amazon Prime Video interface is made of personalized and popularized rows. 
-      Another example of a VOD layout analyzed in academic literature is Hulu (Johnson, 2017). The interface of Hulu is more focused on the broadcasting flow rather than recommendations. On account of their business model, Hulu narrows the differences between the old and new ways of watching TV content by providing live and linear television, aside from their catalog such as full seasons of their original content. Moreover, advertisements on Hulu are still visible, while other VOD platforms display brands in TV content or use brands to attract new subscribers (Wayne, 2018). 
-      The way VOD layouts are constructed play a crucial part in user experiences. Factors such as accessibility, high-quality content, and the additional service of providing recommendations matter for consumers (Ricci et al., 2012). As the underrepresentation of VOD layout in existing literature leaves room for further research, this study investigates features that construct the interfaces: recommendation systems. 
-	2.2 Recommendation systems
-      Recommendation systems are used in different online environments, such as in social media platforms to suggest content fitting the user preferences and in e-commerce to help consumers choose the right product (Xiao & Benbasat, 2007). Realizing the importance of recommendations within information-overloaded platforms to guide consumers, VOD companies have implemented recommendation systems as a strategy to not only provide TV content but create the full consumer experience. With the increasing amount of VOD companies and other online streaming services, such as YouTube6 and Vimeo7, the importance of consumer experience increases in order to maintain subscribers and possibly ‘steal’ subscribers from other platforms (Soares & Viana, 2015). In 2012, Netflix claimed that 75% of the consumed content was watched because it was recommended (Nguyen, Hui, Harper, Terveen & Konstan, 2014). Additionally, the consumer is likely to leave the VOD platform when it fails to find the right content. Therefore, it is vital for both the company and the subscribers that recommended content is inviting and encouraging (Bennet & Lanning, 2007; Ricci et al., 2012). 
-	Kotkov et al. (2018b, p. 2) explain recommender systems as ‘software tools that suggest items of use to users’. In line with Kotkov et al. (2018b), Ricci et al. (2012, p. 1) define recommender systems as ‘software tools and techniques that provide suggestions for items that are most likely of interest to a particular user’. Consumers input data, implicitly or explicitly, to a recommendation system that aims to uncover their preferences (Vozalis & Margaritis, 2003). The user explicitly reveals information regarding his interests and preferences through, for example, rating particular TV content. Implicit input is gathered through the online behavior of the user, such as web usage mining (Bozdag, 2015; Haim, Graefe & Brosius, 2018). These inputs result in personalized recommendation or prediction outputs based on filtering algorithms (Vozalis & Margaritis, 2003; Konstan & Riedl, 2012). Constructed by humans, algorithms are a computerized path that determines the design of the consumers’ recommendations (Vozalis & Margaritis, 2003). Ricci et al. (2012) list various reasons and goals for services providers, such as e-commerce and VOD platforms, to implement recommendation systems. Increasing the number of sold items or, in the context of VOD services, watched content, is their key function. Additional functions are an increase in diversity of items, user satisfaction, user loyalty, and a better understanding of user preferences.
-      The success of VOD interfaces depends on the success of personalized recommendations and, therefore, the architecture of the algorithmic filtering method (Ricci et al., 2012). Through filtering, VOD recommendation systems leave out non-relevant items and predict possible relevant items through machine learning techniques for each user by means of three different methods: collaborative filtering, content-based filtering and demographic filtering (Ghazanfar & Prigel-Bennet, 2010; Möller et al., 2018). Without any personalization, popularity-based recommendations would create identical VOD interfaces for each user and limit opportunities for smaller productions (Gomez-Uribe & Hunt, 2015; Bressan, Leucci, Panconesi, Raghavan & Terolli, 2016). 
-      First, collaborative filtering, social information filtering or neighborhood selection ‘automates the process of “word-of-mouth” recommendations: items are recommended to a user based upon values assigned by other people with similar taste’ (Konstan & Riedl, 2012; Bozdag, 2015, p. 20). According to Vozalis and Margaritis (2003), these user-user similarities are based on memory within an algorithm and combined in a collection of related consumers. User-user collaborative filtering is proven too slow for platforms with a large consumer base; therefore, item-item collaborative filtering was developed that adapted more rapidly regarding the increase of online environments. This filtering technique shows similarities with consideration sets, a marketing function in e-commerce platforms, that pairs highly similar items. However, through neighborhood selection in e-commerce platforms, alternative product recommendations were not surprising, and it was likely that the consumer would already buy the recommended product in the first place (Konstan & Riedl, 2012). The fact that collaborative filtering is mostly based on explicit data is problematic, as the percentage of ratings assigned by consumers is low. This eventually leads to low-quality recommendations and a lack of diverse recommendations (Ghazanfar & Prugel-Bennett, 2010; Nguyen et al., 2014). As Konstan and Riedl (2012, p. 104) explain ‘businesses didn’t want to waste a recommendation on a product customer would likely purchase anyway (e.g., bananas in a supermarket), and thus favored more “serendipitous” recommendation’. To overcome problems, such as incomplete data regarding new users and products, demographic and content-based filtering could be implemented. 
-      Second, content-based filtering analyses the previous content of the user to construct recommendations. Items contain text-based information, such as the genre of series or movies, that is matched to the profile of the user (Ghazanfar & Prugel-Bennett, 2010; Soares & Viana, 2015; Saat et al., 2018). In contrast to collaborative filtering, content-based filtering provides quality recommendations when a low input of explicit data is available (Saat et al., 2018). Gathering data is established by means of the information tags previously consumed content (Vozalis & Margaritis, 2003). Saat et al. (2018) identify three issues regarding content-based filtering in general content-based recommendation systems. First, the issue of the cold start where no previous data is available because the user is completely new to the web. Second, limit text-based information results in low-quality recommendations as the system is not able to distinguish the likes and dislikes of the user. Finally, over-specialization of the recommended items with an exceptional high similarity rate and results in limited recommendations solely based on previously watched content. Serendipity is presented as a potential solution for the issue of over-specialization in content-based recommendation systems. 
-      Third, demographic filtering constructs a user profile on information such as age, gender, and education (Vozalis & Margaritis, 2003). In the Netflix recommender system, information regarding a series or movie genre is processed as demographic data (Ghazanfar & Prugel-Bennett, 2010). Demographic filtering is tied to some difficulties, as this data is collected explicitly and consumers are careful about share such information (Vozalis & Margaritis, 2003).
-	Hybrid filtering methods are applied in VOD recommendation algorithms that combine the previously listed filtering methods (Vozalis & Margaritis, 2003; Ricci et al., 2012; Ghanzanfar & Prigel-Bennett, 2010). Within the Netflix algorithm, a user profile is built according to a recommendation technique and a list of possible recommendations is constructed. Other filtering methods constantly refine this list. Hybrid recommendation systems decrease the problems that collaborative, content-based, and demographic filtering face. Still, two potential problems arise regarding scalability, meaning the adaptability and speed of the generation of recommendation, and quality (Ghanzanfar & Prigel-Bennett, 2010). However, the main concern regarding recommendation methods is the high accuracy rate caused by over-personalization or over-specialization (Nguyen et al., 2014). When consumers are confronted continuously with highly similar content that they already have experienced, other content in different genres is overlooked, and the recommendations are repeated (Maccatrozzo, 2012; Soares & Viana, 2015). 
-      The filter bubble, coined by Pariser (2011), describes this filtering problem. Building a user profile by accurate social filtering limits the exposure of other interesting content and decreases the possibility of creative, educational, and coherent thinking (Nguyen et al., 2014). Additionally, a feedback loop potentially occurs where recommendations are provided, the user interacts with recommended items, and the platform offers similar recommendations (Chaney, Stewart & Engelhardt, 2018). All users of online platforms could be exposed to filter bubbles; they are invisible, individual, biased, and involuntary (Bozdag, 2015). Modifying the filters to widen the reach of recommended items is not the solution to overcome over-personalization, as consumers expect to experience relevant recommendations with minimum effort and time (Maccatrozzo, 2012). Additionally, recent research by Banker and Khetani (2019) concluded that consumers are increasingly overdependent on recommendation algorithms. Therefore, the importance of tackling the filter bubble is intensified. The harm in the filter bubble is the constant reaffirming of consumers’ existing viewpoints and contradicting of opposed ideas (Bozdag, 2015; Hiam et al., 2018). Moreover, concerns are raised that too often users receive recommendations that they are already familiar with (Matt et al., 2014). To burst the filter bubble, multiple research suggests the implementation of serendipity (Ricci et al., 2012; Maccatrozzo et al., 2017b; Saat et al., 2018; Kotkov et al., 2018b; Silveira et al., 2019).
-	VOD platforms aim to prevent filter bubbles and maximize user satisfaction by increasing the performance of the recommendation systems. In academic literature, the performance of recommendation systems is evaluated according to different components. Within the competitive Netflix Prize, the performance of each recommendation system is measured by means of root mean square error that predicts the ratings of items given by consumers (De Vriendt, Degrande & Verhoeyen, 2011). Vozalis and Margaritis (2003) evaluated the prediction quality of different recommendation systems according to accuracy and coverage. Silveira et al. (2019) argue that a well-working recommendation system seeks balance between evaluation metrics of utility, novelty, diversity, unexpectedness, coverage, and serendipity. The research measures the outcome of recommendation systems according to user perceptions through the perception of serendipity, as presented in the article by Kotkov et al. (2018a).
-	A serendipity-greedy algorithm is proven to add value for recommendation systems (Maccatrozzo et al., 2017b; Yu et al., 2017; Kotkov et al., 2018b; Saat et al., 2019). Yu et al. (2017) propose a strategy to balance accuracy and serendipity in a consumer-controlled environment to match their preferences and adding surprising and high-quality serendipitous items. Including a high level of serendipity in VOD layouts, ‘triggers a positive effective state in the user (interest) that motivates her to follow the recommendation’ (Maccatrozzo et al., 2017b, p. 36). The serendipity-greedy algorithm introduced by Kotkov, Konstan, Zhao and Veijalainen (2018a) investigates the independent nature of accuracy, diversity, and serendipity in recommender systems. The research concludes that a high level of serendipity naturally results in a decrease in accuracy and an increase in diversity. Additionally, Chen, Yang, Wang, Yang, and Yuan (2019) experiment with popularity, relevance, novelty, and serendipity-oriented algorithms and conclude that the serendipity-greedy algorithm presents the highest level of user satisfaction compared to the other three. The effectiveness of the provided recommendations is determined by the decision-making process of consumers and the profile of the user (Silveira et al., 2019).
-
-	2.3 Consumer characteristics
-	If recommendation systems in VOD platforms are increasingly personalized, consequently, the importance of deconstructing the decision-making process and characteristics of the consumers, increases. Moreover, the effectiveness of the provided recommendations is determined by the profile of the user (Silveira et al., 2019). In turn, data collection derived from online consumer behavior builds user profiles of VOD platforms (Vozalis & Margaritis, 2003). Multiple factors in consumer behavior could potentially affect the outcome of recommendation algorithms, shape the design of a personalized VOD interface, and determine the level of user satisfaction (Maccatrozzo et al., 2017b). 
-      Established in the previous section, the presence of serendipity contributes to the consumer value towards VOD companies (Maccatrozzo et al., 2017b; Yu et al., 2017; Kotkov et al., 2018b; Saat et al., 2019). However, if VOD recommendation systems are entirely personalized according to each user, the perception of serendipity in VOD interfaces is expected to be different between consumers according to their behavior. For example, a comprehensive user profile is expected to generate highly personalized recommendations with a lower perception of serendipity, as the preferences of the consumer are more clearly defined (Hallinan & Striphas, 2014; Nguyen et al., 2014).
-      The term of perceived serendipity is used throughout this study, as it is impossible to uncover actual serendipity incorporated in the mysterious recommendation algorithms by VOD companies.  Moreover, this study examines the perception of serendipity by focusing on four consumer characteristics that affect the satisfaction of recommendation outcomes. The characteristics that are considered are: (1) binge-watch behavior, (2) knowledgeable users, (3) broad interest in genre, and (4) a need for uniqueness. Although more characteristics could be considered, due to limited space and time the focus is on four characteristics that presented with the best possible academic base. As established by Kotkov et al. (2018b), accuracy and serendipity are negatively correlated, and therefore, both concepts are used to construct hypotheses. 
-      The sections below form four hypotheses regarding perceived serendipity according to the following consumer characteristics: the amount of time spent on VOD platforms, purposefully searching for content, wide range of genre preferences, and the users’ need for uniqueness.
-
-	2.3.1 Binge-watch behavior
-	The binge-model is a strategy applied by VOD companies to create content, attract new consumers, and bind existing consumers (Jenner, 2015). Additionally, developing binge-watchable original content results in a more extended online presence of consumers within the platform. Consequently, when consumers spend more hours on VOD platforms or other online environments, it opens up the opportunity for VOD companies to gather data and increasingly build a more comprehensive user profile (Bozdag, 2015; Haim et al., 2018). Also, accurate recommendations increase consumer satisfaction that ensures loyalty towards the platform. In turn, consumers keep returning to the platform, which produces more data and even more sophisticated data (Hallinan & Striphas, 2014). An accurate user profile creates the possibility for recommendation algorithms to target consumer preferences effectively. 
-	The hours a consumer spends watching content are reflected in the level of personalized recommendations (Maccatrozzo et al., 2017b). Nguyen et al. (2014, p. 683) investigated the accuracy of recommendation systems over 21 months. They concluded that ‘the items recommended by the system and the items rated by users both became slightly narrower (less diverse) over time’. On a critical note, ‘power-users’ or users that solely consume particular content for binge-watch purposes, are less likely to make use of provided recommendations (Berry et al., 2011). 
-      Following academic literature regarding the effects of binge-watch behavior on the accuracy of recommendation systems, the first hypothesis is stated: 
-      H1: The number of hours spent on VOD platforms is negatively associated with perceiving serendipity
-
-	2.3.2 Knowledgeable consumers
-      From the moment consumers subscribe to VOD platforms, consumer data, such as click-through rates or click behavior, is gathered during their online presence that constructs a user profile (Gomez-Uribe & Hunt, 2015). Before consuming TV content on VOD platforms, consumers are able to search for information to determine whether the content fits their preferences. To avoid the risk of choosing the wrong content, consumers gain knowledge on TV content through online information retrieval by, for example, checking the rating of a movie on IMDB8. Online activity is collected in the browsing history of the consumer and, as user profiles in VOD environments include the user browsing history, consumer information in user profiles is expanded (Grange, Benbasat & Burton-Jones, 2018). 
-      When consumers are confronted with personalized recommendations, based on their user profile, they can either choose to follow provided recommendations or ignore them. Nguyen et al. (2014) established that recommendation-following users receive a better experience, as click behavior on VOD platforms contribute to the personalization process and the diversity in recommendations is increasingly in line with their preferences. However, as discussed by Xiao and Benbasat (2007), consumers who follow recommendations are presumably less knowledgeable about the content, and, therefore, more dependent on provided recommendations on platforms. Also, less knowledgeable consumers are less aware of their preferences and watch more popularized content, as popularized content is more familiar to these consumers (Zhang, Séaghdha, Quercia & Jambor, 2012). This leads to a broader range of matched content tags or more diverse recommendations. 
-      Consumers gain knowledge on particular TV content through online reviews or offline channels, such as worth of mouth by their friends. Knowledgeable consumers ignore personalized recommendation, as they purposefully search for the content on platforms with established expectations (Xiao & Benbasat, 2007; Knijnenburg, Willemsen, Gantner, Soncu & Newell, 2012). Additionally, consumers with high product expertise are expected to have more defined and determined preferences and are less likely pleased with the provided recommendations. Therefore, knowledgeable consumers are less likely to be affected by recommendations and, instead, choose to ignore this service (Xiao & Benbasat, 2007; Goodman, Broniarczyk, Griffin & McAllister, 2013). 
-      Although limited implicit and explicit data input constructs user profiles of knowledgeable consumers, as no additional actions or click behavior is tracked, VOD content is purposefully searched with the expectations of a preference match. Knowledgeable users reveal their established preferences in search or information terms and are, therefore, increasingly directly targeted. As the user profile of knowledgeable consumers is more coherent, it is expected that recommendations are more in line with user preferences and present less serendipity. Therefore, the second hypothesis is stated as follows: 
-H2: Knowledge of content by users of VOD platforms is negatively associated with perceiving serendipity
-
-      2.3.3 Broad interest in genre 
-      Most VOD layouts are constructed through different tags that primarily suggest genre recommendations based on user preferences (Ricci et al., 2012). As established above, less knowledgeable consumers are not yet aware of their preferences and therefore match to a high number of content tags. Developing preferences and gaining knowledge overcomes decision difficulty as it narrows the recommended genres (Goodman et al., 2013). 
-      However, consumers can prefer a broad and diverse range of genres regardless of their knowledge of particular content. Zhang et al. (2012) explored that listener diversity in music recommendations favour globally popular and well-known musicians. The study further explains that listener diversity is negatively correlated with the evaluation of recommendation accuracy. Moreover, as Maccatrozzo et al. (2017a) demonstrate, consumers with genre diversity in TV content in user profiles are encouraging the perception of serendipity in their recommendations. Given the data presented in academic literature, the following hypothesis is presented as:
-      H3: Broad interest in genre is positively associated with perceiving serendipity
-      2.3.4 Users’ need for uniqueness
-	Consumers in VOD environments are presented with genre diversity if their preferences are not well developed (Goodman et al., 2013). Additionally, genre diversity potentially occurs when consumers are in need of unique and niche items that increase the chance of matching a wide range of genre tags. Consumers’ need for uniqueness ‘drives individuals to pursue dissimilarity through consumption in an effort to develop a distinctive self and social image’ (Ruvio, Shoham & Makovec Brenčič, 2008, p. 34). Tian, Bearden and Hunter (2001) conceptualize three behavioral dimensions to define consumers’ need for uniqueness. First, creative choice counterconformity describes the selection of goods or products that socially differentiate them from others while maintaining social approval. Second, unpopular choice counterconformity explains the selection of unpopular items in dissent of particular norms within a social group to differentiate themselves and, therefore, risk disapproval from others. The last behavioral dimension of a consumers’ need for uniqueness is the avoidance of similarity and refers to the loss of value or interest and obsolete of an owned product that becomes common and less unique. In essence, the desire to differentiate from others results in the consumption of unique, scarce, niche, and distinctive products (Snyder, 1992).
-      As no relevant academic literature is available concerning the outcome of users’ need for uniqueness in general personalized recommendation systems, a possible similar outcome of consumer characteristic is found in curiosity. Although curious consumers do not necessarily aim to be different, similarities are found in the search for niche products. Consumers without curiosity primally follow popularized recommendations and are therefore presented with similar and familiar content, such as blockbusters (Matt et al., 2014). On the contrary, curious consumers examined in a study by Chen et al. (2019) prefer unexpected recommendations and, in doing so, are increasingly satisfied with the perception of serendipitous content. To add, Maccatrozzo et al. (2017a, 2017b) examine whether serendipitous content in recommendations triggers curiosity in users. Both articles conclude that a high level of curiosity expands on the level of interesting and diverse content and, as a result, results in a high percentage of serendipitous items. 
-	Although no academic literature is found that compares the consumer characteristics of consumers’ need for uniqueness and curiosity, it is expected that both characteristics represent similar outcomes, as consumers with a need for uniqueness and curious consumers are both in search for unique items. Searching for unique items and following unique recommendations stimulates the recommendation of other unique and unfamiliar content and consequently increases the perception of serendipity (Matt et al., 2014). Accordingly, the fourth hypothesis is stated as follows: 
-H4: Users’ need for uniqueness is positively associated with perceiving serendipity
-	
-      2.3.5. User perception of VOD layouts
-	According to Hayes (2017), a mediated model measures the direct and indirect effects between the predictor and the outcome. When applying Hayes’ mediation model to this study, the direct effect of each particular consumer characteristics is measured on user satisfaction without the interference of the perception of serendipity. A negative or positive direct relation between the predictor and the outcome is similar to the negativity or positivity of the indirect relations with serendipity as mediator. No direct effects are expected between the consumer characteristics and the perception of VOD layouts, as the perception of VOD layouts is expected to be formed through the mediating variable of serendipity. However, the direct effects between the consumer characteristics and users’ perception of VOD layouts are measured to draw conclusions on mediating effects (Hayes, 2017). Therefore, the following four hypotheses are stated:
-
-H5a: The number of hours spent on VOD platforms relates negatively to users’ perceptions of VOD layouts
-H5b: Knowledge of content by users of VOD platforms relates negatively to users’ perceptions of VOD layouts
-H5c: Broad interest in genre relates positively to users’ perceptions of VOD layouts
-H5d: Users’ need for uniqueness relates positively to users’ perceptions of VOD layouts
-
-
-	2.4 Serendipity
-      In this study, serendipity acts as a mediator. The perception of serendipity depends on consumer characteristics that construct user profiles. Subsequently, the level of user satisfaction is dependent on the level of serendipity based on consumer characteristics. Therefore, evaluating the level of perceived serendipity by a user is a subjective task (Maccatrozzo et al., 2017b). Silveira et al. (2019) confirm the subjective essence and underline the user-dependent nature of serendipity since user information, such as browsing history, is required to form recommendations. 
-      This thesis follows the serendipity definition and measurements according to Kotkov et al. (2018a, 2018b) with three components: novelty, unexpectedness, and relevance. These dimensions are indisputably connected to one other, as explained below.
-
-	2.4.1 Novelty
-      According to Kotkov et al. (2018b), novelty in recommendations refers to unknown items for users prior to the recommendation. Usually, novel items are unpopular and deviate from user profiles to reduce the chance of familiarity. In line with Kotkov et al. (2018b), Matt et al. (2014, p. 4) explain that ‘novelty measures whether recommended items are already known to distinct users or a community as a whole. At the same time, novel recommendations should not consist of obvious items’. Silveira et al. (2019) recognize three levels of novelty. The first level is life level novelty and represents an unknown item in the life of the user. Second, system level novelty refers to novel items considering the browser and consumption history of the user. Lastly, on a recommendation list level, novelty occurs when items are new in personalized recommendations. Level three is an extension of level two where recommendation systems deny repeated recommendations and therefore considered too extreme. However, the system level novelty is, unlike the life level novelty, traceable by the recommendation system and proven to contribute to user satisfaction in recommendation platforms. 
-      On a critical note, novelty in recommendations should consider whether consumers are able to cope with a certain level of novelty (Maccatrozzo et al. 2017b). A high level of novelty without the implementation of other serendipity dimensions weakens the match between the preferences and the recommended item. Hence, the enjoyment of perceiving novel items is not achieved (Matt et al., 2014). However, the right balance of novelty in the context of serendipity is expected to positively improve the perception of recommendation environments (Matt et al., 2014; Chen et al., 2019). Naturally following from previous literature, the following hypothesis is stated: 
-      H6a: Novelty in the context of serendipity relates positively to users’ perceptions of VOD layouts
-
-	2.4.2 Unexpectedness
-      The article by Silveira, Fernando Mourão and Gonçalves (2017, p. 1662) describe unexpectedness in recommendation systems as ‘avoiding obvious recommendations of items expected to be consumed, aiming to reduce boring and irrelevant recommendations to users’. Moreover, unexpected items deviate from preferences derived from user profiles to ensure the dissimilarity of accurate recommendations (Kotkov et al., 2018b). Unexpectedness or surprising recommended items differ from the expectations of consumers; however, these items are not necessarily novel or relevant (Kaminskas & Bridge, 2014). Chen et al. (2019) point out the difficulty in the measurement of the unexpected element in serendipity, as the first reaction of consumers in encountering an unexpected item is the emotion of surprise. Surprises have the possibility to be unpleasant as well. Only by combining other factors, such as novelty and relevance, a level of serendipity is induced and creates the goal that strives for user satisfaction. Including the dimension of unexpectedness in the concept of serendipity contributes to successfully perceived serendipitous recommendations and increased user satisfaction (Silveira et al., 2017). Consequently, the following hypothesis is formed: 
-      H6b: Unexpectedness in the context of serendipity relates positively to users’ perceptions of VOD layouts
-
-	2.4.3 Relevance
-      Relevance or utility items refer to items that predicted or ensured to fit users’ preferences. Explicitly, users indicate relevant items with ratings where, for example, three out of five stars is considered to be relevant. As Netflix already disregarded the rating system that contributed to user profiles, recommendation algorithms are structured to measure the relevance of items in an implicit manner. For instance, items are considered relevant when a certain percentage of content is consumed (Kotkov et al., 2018b). Consequently, relevance reflects the level of value that users attach to recommendations and, therefore, is considered to relate closely to the taste and preferences of consumers (Silveira et al., 2019). 
-      Providing solely accurate recommendations increases homogeneous content and decreases relevance, as the input of data is based on similar recommendations and content (Chaney et al., 2018). However, relevant items ‘is the main need the users have, since they want recommender systems to suggest useful items according to their tastes’ (Silveira et al., 2019, p. 826). Including relevant items in recommendation systems is necessary. Nonetheless, recommendations present familiar and expected content without consideration of the other serendipity dimensions. Hence, recommending relevant items in the context of serendipity contributes to a positive perception of platform environments (Saat et al., 2018).
-      H6c: Relevance in the context of serendipity relates positively to users’ perceptions of VOD layouts
-	Again, the coherence between the three components of serendipity is underlined. When a consumer is presented with serendipitous recommendation items, the recommendation system provides a novel, relevant, and unexpected item. This study tests the three components separately to uncover the level of each element, and therefore, the balance of novelty, relevancy, and unexpectedness in serendipitous items. 
-
-
-
-      2.5 Conceptual framework
-
-
-
-
-Figure 1. Conceptual Framework
-      
-
-
-3. METHOD
-	
-      The following chapter discusses the methodological approach of this thesis. This research aims to investigate the outlined hypotheses as described in the previous section. In the first part of this chapter, the quantitative nature of the research method is analyzed. Secondly, the research design is developed as an online survey with a quasi-experiment. This section clarifies the survey structure and stimulus that collects the data from a sample. Thirdly, the descriptive statistics are discussed to illustrate the sample. Fourthly, the research design and mediated approach are further analyzed with an in-depth operationalization of all considered research variables. Lastly, reliability and validity are discussed. 
-
-      3.1 Methodological approach
-      The goal of this research is to analyze the effect of particular consumer characteristics on their perception of VOD layout through the mediated aspect of serendipity. Depending on the consumer characteristics, the perception of serendipity changes, and therefore, the perception of VOD layouts change. In short, this study follows a mediated path. 
-      In mediated research, ‘the goal is to empirically quantify and test hypothesis about the contingent nature of the mechanisms by which X exerts its influence on Y’ (Hayes, 2017, p. viii). Therefore, a quantitative approach is formulated to ensure the research is conducted correctly and concisely. Moreover, the structured and objective nature of quantitative research improves the reliability of this study (Matthews & Ross, 2010). 
-
-      3.2 Research design
-      The research design is shaped with an online survey including a quasi-experiment using the research software Qualtrics. The survey is distributed by the researcher and completed by the participant through online platforms to reach the right target group: the online consumers of VOD platforms. 
-      Distributing online surveys regarding the topic of serendipity in recommender systems and including a specific type of experiment is common in academic literature (Maccatrozzo et al., 2017a; Kotkov et al., 2018a; Chen et al., 2019). Maccatrozzo et al. (2017a) constructed a controlled experiment using a survey that measures the relation of curiosity and their response to serendipitous recommendations. The study by Kotkov et al. (2018a) and Chen et al. (2019) distribute online surveys through an extensive database to uncover the perception of serendipity. In the article by Kotkov et al. (2018a), participants are asked, alongside the serendipity scales, to rate the level of satisfaction regarding the recommended content with a maximum of five stars. The participants of the research by Kotkov et al. (2018a) prove to be willing to share their opinion on TV shows and movies in a survey format. Moreover, Chen et al. (2019) conduct the online survey method to measure the moderation effect of curiosity between serendipity as predictor and user satisfaction as an outcome. Both articles prove that the online survey method is the appropriate research method to measure the perception of serendipity and its mediated aspect in this study. 
-      An advantage of gathering data using online surveys is the possibility of generalizing the data of the sample to a larger population. Moreover, by means of online distribution and easy access to the survey, the potential is created to reach participants on a global level in a short time. Including a quasi-experiment in the survey creates the opportunity to gather data in a natural situation (Matthews & Ross, 2010). For the presented survey, the Netflix interface and recommendation rows are simulated to create a natural experience of browsing through suggested content.
-      The survey presented in this study (Appendix A) uses statements demonstrated in the studies by Kotkov et al. (2018a), Chen et al. (2019), and Ruvio et al. (2008). The statements presented by Kotkov et al. (2018a) and Chen et al. (2019) are used and adapted to construct the serendipity scale. The statements by Ruvio et al. (2008) uncovers the level of need for uniqueness by the participant. 
-      
-      3.2.1 Survey structure
-      The survey presented in Appendix A is constructed of seven parts. In the first part, an introduction to the topic of the study and informed consent is presented. Moreover, the first part elaborates on the participation requirements: the participant is a subscriber of at least one VOD platform and is in possession of their own user profile of a VOD platform without the interference of others. In the second part of the survey, items 1a and 1b, are presented as control variables (§3.4.4) to ensure the participant meets the requirements. Additionally, item 1d, the participants' most-used VOD platform, is incorporated in all relevant statements according to the ‘Pipe Text – Selected Choices’ option in Qualtrics. Before continuing to the third part, a definition of recommendations is introduced to ensure all participants understand the following statements in the serendipity scale of their most-used VOD platform (part three). Fourth, consumer characteristics are uncovered according to the four researched components: hours spent on VOD platforms, the level of knowledge, diversity in genre interest, and the need for uniqueness. Next, the stimulus (§3.2.2) is displayed for at least 30 seconds before entering the fifth part of the survey: the serendipity scale based on the stimulus. The sixth part of the survey retrieves the demographic information of the participant. Lastly, a closing message is presented. The scales and variables presented in this survey are in-depth elaborated in §3.4.     
-
-      3.2.2 Stimulus
-      The fifth part of the survey (Appendix A: Stimulus) is a quasi-experiment with a 100% serendipity stimulus. In quasi-experiments, two or more differentiating groups are identified and exposed to a situation in a natural manner (Matthews & Ross, 2010). The survey presented in this research identifies four different groups based on their consumer characteristics. A natural situation is created by recreating the layout of the most popular VOD platform, Netflix. Other platforms, such as Disney+ and Amazon Video Prime, display a similar layout with the representation of genre rows. Created with the design software program Indesign, all presented recommendations are images extracted from a Google search (Appendix B) accompanied by imaginary titles created by the researcher. Hence, all recommendations are new to each participant. Moreover, the designed recommendations in the stimulus aim to suggest diversity in genres, ethnicities, style, and presentation. 
-      In the stimulus, five different genre rows are constructed that resemble popular and personalized genre rows. The popularized rows are described as: ‘popular’, ‘trending’, and ‘top 10 in the Netherlands’. Including popularized rows in the stimulus with familiar actors and current similar popular content from May 2020 increases the credibility and relevancy of the stimulus. For example, ‘Animal Kingdom’ and ‘Kobe Bryant’, both displayed in genre row ‘Top 10 in the Netherlands’, refer to the popular Netflix documentaries of ‘Tiger King’ and ‘The Last Dance’ (Shaw, 2020) respectively. The personalized recommendation rows ‘Recommended for you’ and ‘Because you watched Friends’ directly address the participant and aim to evoke the participants with an emotion based on their consumer characteristics. ‘Friends’ is chosen as it is a top-streamed TV show (Lee, 2019) on the most used VOD platform, Netflix (Gomez-Uribe & Hunt, 2015), and, therefore, most likely that the participants have watched one or more episode. Either the participant feels that the recommendations are suggesting interesting, relevant, and surprising content, or the recommendations are perceived as misplaced and incorrect. 
-
-Figure 2. Stimulus.
-
-      3.2.3 Data collection
-      Before distributing the survey (Appendix A), a pre-test was conducted to improve the flow of the overall survey and ensure the right interpretation of all statements and questions. Performing a pre-test increases the reliability of the study (Pallant, 2016). After each pre-test, conducted by seven female and five male participants, the participant and the researcher discussed possible occurred issues. The participants of the pre-test suggested some slight changes, such as incorporating the meaning of recommendations and rewriting statements. A description of recommendations within your VOD layout proved to be essential, as no participant was aware that all perceived content could be described as a recommendation. Most of the participants searched for the ‘Recommended for you’ recommendation row to answer the serendipity scale regarding their most used VOD platform. Moreover, a timer is set with the display of the stimulus. Participants during the pre-test expressed that they easily forgot the provided recommendations. Setting a timer during the perception of the stimulus enables the participant to closely look at the provided recommendation for at least 30 seconds. Also, to increase the reliability of the serendipity scale regarding the perception of 100% serendipity, the stimulus is displayed once more with the serendipity scale (Appendix A: Stimulus). Last, the nationality of the participant, item 5c, is added to the demographic questions to increase the information of the participated population.
-      Once all the detected problems were resolved, the final version of the survey (Appendix A), constructed with Qualtrics, was distributed through convenience sampling. Convenience sampling ‘is a type of nonprobability or nonrandom sampling where members of the target population that meet certain practical criteria, such as easy accessibility, […] are included for the purpose of the study’ (Etikan, Musa & Alkassim, 2016, p. 2). A disadvantage of convenience sampling is the probability of a biased sample, such as the overrepresentation of female participants. During the distribution of the survey, a high participation level of females (71%) compared to male participants (29%) was represented. Therefore, female participation was excluded for one day by creating an entry requirement on the platforms Surveyswap and Surveycircle. The other requirements to participate in the survey, items 1a and 1b that exclude nonusers of VOD platforms and participants without their own user profile (Appendix A: Filter and Control variables), are presented in the introduction and the first section. 
-      During the last two weeks of May 2020, the respondents were recruited through various platforms, such as LinkedIn, Whatsapp, Surveyswap, and Surveycircle. Together with the Qualtrics link, a short description of the survey purpose, requirements, and duration presented the invitation to the survey. For the distribution through Whatsapp, a snowball effect sampling method is performed by contacting friends of friends by the researcher. Although snowball sampling is embedded with limitations, such as the lack of control over the sample and a possible sample bias by selecting similar participants (Biernacki & Waldorf, 1981), snowball sampling is found appropriate to test theoretical models for a short period (Calder, Philips & Tybout, 1981).
-	The target sample size is abstracted from the study by Kotkov et al. (2018a). Here, the serendipity scale was distributed to 2305 users with 475 respondents that completed all questions and statements. However, due to the short distribution time of the survey presented in this research (Appendix A) and the lack of an extensive distribution database, the target sample size is adjusted to a more manageable sample size. According to Tabachnick and Fidell (2013), the formula for the required sample size in quantitative research is N > 50 +8m, where’ represents all independent variables. The four consumer characteristics and three mediating variables are included in the equation. All combined, it results in a target sample size of N > 106.
-
-      3.3 Descriptive statistics
-	In total, 386 participants opened the survey. Out of 386 participants, 50 participants did not complete the entire survey. Approximately half of these unfinished participants stopped at the filter questions regarding the consumption of VOD platforms and ownership of their own user profile. The other half of the unfinished participants stopped at other moments in the survey. Forty participants did not meet the requirements and answered item 1a or 1b (Appendix A) with ‘no’. Another six participants were excluded from the dataset as a completion time below three minutes is considered too fast. Participants with a completion time between three and 4.5 minutes are scrutinized to ensure the participant did not select the same option continually. No participants with a survey duration between three and 4.5 minutes are excluded. After data cleaning, the usable dataset is established at 290 participants.  
-
-      3.3.1 Descriptive statistics: respondents
-	Table 1 and table 2 (Appendix. C) present the descriptive statistics gender, education level, and nationality of the sample. The variable age is stated as a number in an open text box. The age of the participants ranged from 18 to 82, with M = 28.82, SD = 11.54. 
-      For the variable gender, participants had the option to select: ‘female’, ‘male’, ‘prefer not to say’ and ‘other’. The last option was provided with an open text and enabled the participant to specify. One participant selected the option ‘prefer not to say’ and one participant specified the variable gender in the open text box when the option ‘other’ was selected. Furthermore, female participants represent 174 (60.0%) of the sample, leaving 114 (39.3%) male participants. The descriptive statistics regarding the variable gender are presented in table 1. 
-      The nationality of the participant is asked by selecting a pre-made Qualtrics selection option that includes all nationalities across the world. The majority of the sample, 193, is Dutch (66.6%), followed by 22 participants from the United Kingdom of Great Britain and Northern Ireland (7.6%) and 20 participants from Germany (6.9%). The full list of countries is presented in Appendix C: table 2. 
-      For the demographic question regarding the highest completed education, two groups represent the majority of the sample, namely 99 participants completed a bachelor’s degree (34.1%) and 94 participants completed a master’s degree (32.4%). Other participants completed high school (16.2%), higher professional education (10.3%), and secondary vocational education (4.5%). One participant did not complete an education (0.3%). The number and percentage of participants of each group regarding the highest completed education are displayed in table 1. 
-
-Table 1: Descriptive statistics: gender and highest completed education with N = 290
-VariableNumber of participantsPercentage of participantsGender
-Female
-Male
-Prefer not to say
-Other
-174
-114
-1
-1
-60.0%
-39.3%
-0.3%
-0.3%Highest completed education
-No education
-High school graduate
-Secondary vocational education (MBO)
-Higher Professional education (HBO)
-Bachelor’s degree
-Master’s degree
-Doctorate/PhD
-1
-47
-13
-30
-99
-94
-6
-0.3%
-16.2%
-4.5%
-10.3%
-34.1%
-32.4%
-2.1%	
-      3.3.2 Descriptive statistics: VOD platforms
-	As expected from previous literature (Gomez-Uribe & Hunt, 2015), Netflix is the most used VOD platform amongst the sample. For item 1c, questioning on which VOD platforms the participants have their own user profile, multiple answers could be selected. 276 out of the 290 participants (95.2%) answered ‘Netflix’ for item 1c, as one of the VOD platforms where they possess their own user profile. Videoland (25.2%), Amazon Prime Video (17.2%), and Disney+ (14.5%) are other popular VOD platforms amongst the sample. Furthermore, the majority of 249 (85.9%) participants selected Netflix as the most-used VOD platform. The second most used VOD platform amongst the sample is Videoland with 5.2%. The statistics of item 1c and item 1d are found in table 3.
-
- Table 3: Descriptive statistics: item 1c and item 1d with N = 290
-VariableNumber of participantsPercentage of participantsItem 1c. On which VOD platforms do you have your own user profile?Netflix
-Disney+
-Amazon Prime Video
-Apple TV 
-Hulu
-Videoland
-Ziggo Movies and Series
-NPO start
-Film 1
-Other276
-42
-50
-18
-4
-73
-18
-31
-1
-1895.2%
-14.5%
-17.2%
-6.2%
-1.4%
-25.2%
-6.2%
-10.7%
-0.3%
-6.2%Item 1d. What is your most used VOD platform where you have your own user profile?Netflix
-Disney+
-Amazon Prime Video
-Apple TV 
-Hulu
-Videoland
-Ziggo Movies and Series
-NPO start
-Film 1
-Other249
-4
-8
-2
-1
-15
-1
-8
-0
-285.9%
-1.4%
-2.8%
-0.7%
-0.3%
-5.2%
-0.3%
-2.8%
-0%
-0.7%
-
-      3.4 Variables and reliability
-      As displayed in the conceptual framework (figure 1), a mediation model is presented in this study. The consumer characteristics (X) act as predictors, serendipity (M) acts as the mediator and user perception of VOD layouts (Y) is the outcome. All components of the meditation model are explained below. 
-      
-      3.4.1 Consumer characteristics
-      In this study, four consumer characteristics are considered that affect user profiles and the perception of serendipity on VOD platforms. As described in the theoretical framework, all four characteristics are related to user profiles within recommendation platforms. Other consumer characteristics, such as curiosity (Maccatrozzo et al., 2017a), are applicable in this study. However, due to the limited research scope and time, the focus is on the four presented characteristics. 
-      
-      The number of hours spent on VOD platforms
-      The first hypothesis discusses the number of hours spent by the consumer on their chosen platforms. To measure hours as a continuous variable, the consumer is asked to fill out an open text box that explains the number of hours the consumer spent on their chosen platform per week on average. Adding the phrase ‘no judgment’ and including a wink emoticon stimulates the participant to answer honestly. The predicting variable of hours varies from spending half an hour per week on VOD content on average to 48 hours with M = 8.58 hours, SD = 6.58. 
-
-      Knowledgeable consumers
-      The second hypothesis presented of consumer characteristics is the knowledge of consumers. Knowledgeable consumers are defined by four criteria in five statements on a five-point Likert scale, anchored by ‘strongly disagree’, ‘disagree’, ‘neither agree nor disagree’, ‘agree’ and ‘strongly agree’. The four criteria of knowledgeable consumers in this study are: (1) doing research through offline or online channels before watching content, (2) ignoring provided recommendations on VOD platforms, (3) purposefully searching for content, and (4) developed TV show/movie preferences. To uncover the knowledge level of the participant, five statements are formulated regarding the agreement of each criterion. Additionally, for the second criteria, ignoring provided recommendations, a supplementary statement is added to ensure that the participant understands the question correctly. The first question of the second criterion, item 3b1, is formulated in a negative manner: ‘I never follow provided recommendations on [answer 1d]’. The question the second question of the second criteria, item 3b1: ‘When I want to watch TV shows/movies, I look through the recommendations on [answer 1d] before I make a decision’ is added for clarity and control. All questions regarding the participant's knowledge of VOD content are presented in Appendix A: Consumer Characteristics (b). 
-      To test the reliability of the created knowledgeable consumer scale according to previous literature, a Cronbach’s alpha test is conducted considering all five statements. However, as the reliability of all five statements is presented with a low level of internal consistency (α = .04), factor analysis is conducted to find underlying components within the consumer knowledge scale (table 4). Using Principal Components extraction with Varimax rotations based on Eigenvalues (>1.00), KMO = .58, χ2 (N = 290, 10) = 104.62 p < .001. Two factors are found explaining a variance of 54.9% of the total. Although the KMO is established slightly below .60, the factor analysis is continued (Pett, Lackey & Sullivan, 2003). The first factor is described as established preferences and refers to the third and fourth criteria, purposefully searching for content and developed TV shows/movie preferences, respectively. The factor ‘established preferences’ is characterized by the well-developed preferences and well-established knowledge consumers have before the consumption of VOD content. 34.0% explained the variance with questionable reliability of α = .58. The second factor is identified as information retrieval and includes items 3b3, 3b4, and 3b5 of the knowledgeable consumer scale. Information retrieval refers to the action’s consumers undertake before watching content on VOD platforms. The variance explained is 20.9% with a reliability of α = -.29. This level of reliability is too low to be considered in the knowledgeable consumer scale (DeVellis, 2003).
-      Moreover, reverse coding the third item did not improve the reliability of the factor. A possible explanation of the low reliability of the second factor is the lack of clarity regarding the question. Three statements are excluded to improve the overall reliability of the full knowledgeable consumer scale and aim for the highest possible reliability level. By deleting item 3b3, 3b4 and 3b5, the highest level of reliability is set at α = .58. The findings indicate a low reliability level; however, as discussed in Bernardi (1994), ‘a low Cronbach’s alpha does not immediately put the results of the analysis into question’. Moreover, Griethuijsen, van Eijck, Haste, den Brok, Skinner, Mansour, … BouJaoude (2014) argue that a Cronbach’s alpha ranged between α = .45 and α = .98 is described as acceptable. Although the internal consistency is not ideal (α < .70) according to DeVellis (2003), the remaining two statements, items 3b1 and 3b2, are formed to represent the predicting variable of knowledgeable consumers. 
-      To prepare the predicting variable of knowledgeable consumers for the mediation model, a new variable is created, calculating the mean of knowledgeable consumers for each participant. 
-
-Table 4. Factor analysis of knowledgeable consumers scale with N = 290.
-ItemsEstablished preferencesInformation retrievalWhen I open [answer 1d], I know exactly what kind of TV shows/movies I prefer.86
-When I open [answer 1d], I know exactly what I want to watch.80When I want to watch TV shows/movies, I look through the recommendations on [answer 1d] before I make a decision. -.72I never follow provided recommendations on [answer 1d].77Before watching TV shows/movies on [answer 1d] I do research to find out if it is worth watching.36Reliabilityα = .58α = -.29Variance Explained34.0%20.9%      
-      
-	Broad genre interest 
-      The third hypothesis concerns the effect of a broad genre interest on the perception of serendipity and user satisfaction. For the purpose of this hypothesis, the participants are asked which genres they are interested in, and providing them with 17 genre options uncovers the number of interested genres. The genre options are mostly added on and derived from Statista Research Department (2019; 2020a). Also, the possibility of selecting ‘other’ is provided with a textbox. This enables the participant to choose genre preferences that are not presented in the provided options. All genre options, such as ‘action’, ‘comedy’, and ‘mystery’ are presented in Appendix A: Consumer Characteristics (c).
-      To prepare the predicting variable broad genre interest for the mediation model, a new variable is created. This new variable represents the total of all selected genre options for each participant.  
-      
-	Users’ need for uniqueness
-      Finally, the users’ need for uniqueness is analyzed according to the short-form users’ need for uniqueness scale by Ruvio et al. (2008). The questionnaire developed by Ruvio et al. (2008) is chosen over the 31-item long questionnaire by Tian et al. (2001), as the scale by Ruvio et al. (2008) provides a shortened questionnaire based on Tian et al. (2001). A shorter survey with fewer questions increases the overall completion rate of the survey (Matthews & Ross, 2010). The users’ need for uniqueness scale by Ruvio et al. (2008) presents twelve statements regarding the consumption and ownership of fashion products and brands. Ruvio et al. (2008) present four elements of the consumers’ need for uniqueness scale: creative choice, unpopular choice, avoidance of similarity, and unique consumption behavior. The last element, unique consumption behavior, was especially used for the study by Ruvio et al. (2008) and therefore excluded in this survey (Appendix A). Moreover, six of twelve statements by Ruvio et al. (2008) do not adequately adapt to the context of VOD markets and are excluded from the questionnaire. The other six statements were indicated as relevant and included in the survey used in this study (Appendix A). To illustrate, the second item by Ruvio et al. (2008, p. 53) is excluded, as it states: ‘I often try to find a more interesting version of run-of-the-mill products because I enjoy being original’. In the context of fashion products and brands, this statement is applicable as popular fashion items and seasonal trends are replicated to meet the needs of fashion consumers. However, replicating TV shows or movies is less common due to strict copyright policies (Towse, 2010). As Ruvio et al. (2008) did not present possible answering options for the participant, all six remaining statements are answered on a five-point Likert scale, anchored by ‘strongly disagree’ to ‘strongly agree’, corresponding to the study by Tian et al. (2001). The full users’ need for uniqueness scale used in this study is displayed in Appendix A: Consumer Characteristics (d).
-	As six of twelve statements are excluded from the users’ need for uniqueness scale by Ruvio et al. (2008), a factor analysis is conducted to test whether the three factors of creative choice, unpopular choice, and avoidance of similarity, are represented in the shortened scale presented in this study (Appendix A: Consumer characteristics (d)). Using Principal Components extraction with Varimax rotations based on Eigenvalues (>1.00), KMO = .74, χ2 (N = 290, 15) = 814.72 p < .001. The KMO value is recorded above 0.60 and the Bartlett’s test of Sphericity is statistically significant. Therefore, the factor analysis is continued. A variance of 75.0% of the total is explained through two factors: avoidance of similarity and creative/unpopular choice. The internal consistency is accepted at α = .86 and α = .80, respectively (DeVillis, 2003). As presented in table 5, two components of the users’ need for uniqueness scale are combined, namely creative choice and unpopular choice. Seemingly, the distinction between both components is not represented enough in the survey (Appendix A). Although the statements are excluded for a reason, namely the ability to adapt properly to the VOD market, future research should consider including more statements regarding unpopular choice. 
-	After establishing the components of the users’ need for uniqueness scale by Ruvio et al. (2008) is comparable to the scale used in this study (Appendix A: Consumer characteristics (d)), the reliability is checked. The users’ need for uniqueness scale of this study, representing six statements, recorded a Cronbach’s α = .81. A Cronbach’s alpha at the level of .81 means that the full users’ need for uniqueness scale is reliable and acceptable (DeVillis, 2003). To prepare the predicting variable of users’ need for uniqueness for the mediation model, a new variable is created, calculating the mean of the users’ need for uniqueness scale for each participant. 
-
-Table 5. Factor analysis of users’ need for uniqueness scale with N = 290. 
-ItemsAvoidance of SimilarityCreative/Unpopular choiceThe more common a TV show/movie is among the general population, the less interested I am in watching it..91
-I often try to avoid TV shows/movies that I know are watched by the general population..90When a TV show/movie I watch(ed) becomes popular among the general public, I begin to value it less..80Having an eye for TV shows/movies that are interesting and unusual assists me in establishing a distinctive image..84I actively seek to develop my personal uniqueness by watching unique and special TV shows/movies..87I enjoy challenging the prevailing taste of people I know by watching something they would not seem to accept..77Reliabilityα = 0.86α = 0.80Variance explained51.6%23.4%
-
-      3.4.2 Serendipity
-      In this study, the mediating variable between consumer characteristics and user perception of VOD layouts is serendipity. Measuring of the mediating variable is performed according to the serendipity scale presented by Kotkov et al. (2018a). The survey by Kotkov et al. (2018a) on recommendations of MovieLens introduces eight statements regarding the three dimensions of serendipity (novelty, unexpectedness, and relevance), satisfaction, and preference broadening (§3.4.3). All statements by Kotkov et al. (2018a) were subjected to slight changes to fit the purpose of this study. 
-      In the eight-item questionnaire by Kotkov et al. (2018a), the serendipity elements of unexpectedness and relevance are examined as a combined component. Also, Kotkov et al. (2018a) solely asked the participant to fill in the survey regarding relevant content, implying that the relevancy of provided recommendations is already established. Contrary to Kotkov et al. (2018a), this survey (Appendix A) examines the element of relevance separately by adding item 2.7 and 4.7. These items state that the recommended TV shows and movies are relevant for the participant. Moreover, the items 2.4 and 4.4 are shortened to a one-sentence statement, as both items introduced in the questionnaire of Kotkov et al. (2018a) presented a double statement. Presenting one clear statement improves the capability of the participant to understand each statement correctly. Adding clarity enhances the reliability of the answers given by the participants. 
-      The adapted version of the serendipity scale by Kotkov et al. (2018a) is included twice in the overall survey of this research. At the beginning of the survey (Appendix A: Serendipity), the participant is asked to look at, or think about, the provided recommendations on their most-used VOD platform that they selected in filter question 1d. The first serendipity scale incorporates their most used VOD platform in all nine statements and, therefore, refers directly to the platform with the most established user profile. After the participant is exposed to the stimulus of 100% serendipity (figure 2), the adapted serendipity scale by Kotkov et al. (2018a) is introduced again. This second serendipity scale refers to the displayed recommendations in the stimulus. In line with Kotkov et al. (2018a), all statements are tested according to the level of agreement on a five-point Likert scale (‘strongly disagree’ to ‘strongly agree’). Both serendipity scales are found in Appendix A Serendipity and Stimulus. 
-      A factor analysis is conducted to uncover whether the three components of the serendipity scale presented in Kotkov et al. (2018a) resemble the underlying factors in the serendipity scale of this study. The seven items, item 2.1 till item 2.7, representing the adapted serendipity scale by Kotkov et al. (2018a) refer to the perception of serendipity in existing VOD layouts and are entered into factor analysis. Using Principal Components extraction with Varimax rotation based on Eigenvalues (>1.00), KMO = .67, χ2 (N = 290, 21) = 379.09, p < .001. The factor analysis is continued, as the KMO value is presented above 0.60 and the Bartlett’s test of Sphericity is statistically significant (Pett et al., 2003). 
-	Explaining 56.8% of the variance in the first serendipity scale, two factors are found above an Eigenvalue of 1. The two factors are presented as novelty/unexpectedness and relevance. The two factor loadings of the individual items are displayed in table 6. Contrary to Kotkov et al. (2018a), this study combines the factors novelty and unexpectedness, as no distinct difference is presented in the underlying constructs. As a consequence, two mediating variables, novelty/unexpectedness and relevance, are presented in the model (figure 4), instead of three mediating variables. 
-	The reliability of both factors is slightly under the preferable α ≥ .70 (DeVellis, 2003), as novelty/unexpectedness recorded a Cronbach’s α = 0.67 and Relevance α = 0.68. Deleting statements did not improve internal consistency. Therefore, components novelty/unexpectedness and relevance are accepted at the previously indicated Cronbach’s alpha. A Cronbach’s alpha between α > .65 and α < .70 is minimally accepted (Cohen, Manion & Morrison, 2018). 
-	Performing a factor analysis on the serendipity after the stimulus is inadvisable, as the participants could be biased by the perception of the first serendipity scale. Therefore, the same factors, novelty/unexpectedness and relevance, are used in the second mediation model (figure 5) after the perception of the stimulus.
-
-
-
-Table 6. Factor analysis of the serendipity scale with N = 290. 
-ItemsNovelty/UnexpectednessRelevanceThe recommendations on [answer 1d] are different (e.g., in style, genre, topic) from the TV shows/movies I usually watch..82
-I am surprised by the TV shows/movies on [answer 1d] that are recommended to me..74The recommendations on [answer 1d] suggest TV shows/movies that I have never heard of..64The recommendations on [answer 1d] are TV shows/movies I would not normally discover on my own..62I enjoy recommended TV shows/movies on [answer 1d]..81The recommendations on [answer 1d] suggest TV shows/movies that are relevant for me..78The recommendations on [answer 1d] influence my decisions to watch TV shows/movies..74Reliabilityα = 0.67α = 0.68Variance Explained32.2%24.5%      
-      
-      3.4.3 User perception of VOD layouts
-      Measuring user satisfaction as an outcome for the effectiveness of recommendation systems is widely used in different academic articles (Häubl & Trifts, 2000); Knijnenburg et al., 2012; Ekstrand, Maxwell Harper, Willemsen & Konstan, 2014; Yu et al., 2017; Kotkov et al., 2018a; Chen et al., 2019; Silveira et al., 2019). Moreover, in line with Kotkov et al. (2018a) and Chen et al. (2019), the user perception of recommendations is measured according to user satisfaction. Applying the measurement of user satisfaction enables recommendation environments to test the performance of their recommendation service and compare the effectiveness of, for example, algorithmic changes after implementation.
-      The study by Kotkov et al. (2018a, p. 1345) includes the component of user satisfaction in their eight statements by stating: ‘I am glad I watched this movie’. This statement suggests testing user satisfaction on serendipitous before and after consumption. However, the survey presented in this study (Appendix A) solely considers the perception of serendipity before consumption. Asking participants to fill in a new survey concerning user satisfaction after consumption of serendipitous items is not feasible in this study due to lack of time and space, and, therefore, the measurement of user satisfaction is adapted according to the study of Chen et al. (2019). Chen et al. (2019, p. 244) suggest a direct approach by stating: ‘I am satisfied with this recommendation’. Combining both statements from the study by Kotkov et al. (2018a) and Chen et al. (2019), resulting in item 2.8 and 4.8, provides clear expectations for the participant.
-      Two new variables are created to prepare both outcome variables for the first and second mediation model. The new variable for the first mediation model calculates the mean of user satisfaction (item 2.8) for each participant. The second created variable, included in the second mediation model, calculates the mean of user satisfaction (item 4.8) of each participant after the perception of the stimulus
-      Moreover, Kotkov et al. (2018a) introduce the statement regarding preference broadening. Preference broadening is an effect of the implementation of serendipitous items, as consumers are exposed to unfamiliar content that might be interesting and relevant (Kotkov et al., 2018a). Again, in the article by Kotkov et al. (2018), the statement regarding preference broadening is answered through the participant's level of agreement on a five-point Likert scale (‘strongly disagree’ to ‘strongly agree’) after the consumption of MovieLens recommendations. Although preferences broadening is not included in the hypotheses of this research, an adapted statement by Kotkov et al. (2018a) presented as item 2.9 and 4.9 (Appendix) possibly uncovers preference broadening expressed before the recommended content consumption. Future research could include preferences broadening based on consumer characteristics, such as the knowledge of consumers, as another outcome of the performance of recommendation systems. 
-      
-      3.4.4 Control variables
-	To control the distribution of a represented population, demographic variables are included that represent the participants’ age, nationality, gender, and education level. The demographic variables act as control variables in the mediation regression to address possible confounding factors. The confounding factors are included to regulate the distortion of the effects between the predictors, mediators, and the outcome. To illustrate, the nationality of the participant affects the perception of serendipitous items, which is explained by the fact that the catalog of VOD platforms is different for each country (Gomez-Uribe & Hunt, 2015). 
-	To prepare the control variables for the mediation model according to Hayes (2017) in section §4.2 and §4.3, the demographic variables of gender and nationality are recoded in binary dummy variables. First, the dummy variable gender distinguishes two groups: female and not female. ‘Female’ represents female participants and encompasses the largest group in the demographic variable gender. The group ‘not female’ includes all male participants and participants that selected the option ‘prefer not to say’ or ‘other’. Second, the dummy variable nationality differentiates ‘Dutch’ and ‘non-Dutch’, as a large group selected the option ‘Dutch’ as their nationality (66.6%). All other nationalities are included in the group ‘non-Dutch’. Additionally, the demographic variable age is not recoded, as continuous variables are accepted as covariates in the mediation model (Hayes, 2017). Last, education level is excluded from the mediation model because this demographic variable is unable to be recoded in a continuous or binary dummy variable. 
-      Moreover, items 1a and 1b test whether the participant meets the criteria to act as a valid respondent. Item 1a (Appendix A) states ‘Are you a user of at least one Video-on-demand (VOD) platform?’. Answering this question with ‘yes’ informs the researcher that the participant encompasses enough knowledge on VOD platforms to answer all following questions and statements. For the next item, item 1b (Appendix A), the following question is asked: ‘Do you have a user profile on a VOD platform where you are the only consumer?’. This question indicates whether the user profile of their VOD platform attracts data solely on their interactions without the interference of users with possible different consumer characteristics. Interference of other users within a user profile changes the preference match towards a broader range and, therefore, the relevancy of recommended content. Accordingly, the perception of serendipity is higher than anticipated by recommendation systems. The image (figure 3) presented with item 1b provides an example of a user profile, to ensure that the participants understand the requirement and question correctly. A shared Netflix account, the most popular VOD platform, is displayed. A marked red box, accompanied by an explanatory text, indicates the intention of item 1b. 
-
-      3.5 Reliability and validity
-	While constructing the research design of this study, the reliability is preserved by adapting existing scales with proven reliability. The reliability of the modified serendipity scale and the users’ need for uniqueness scale are accepted and, therefore, improves the generalizability of the sample in the survey (Appendix A). The reliability of the survey is limited for the knowledgeable consumer scale (table 4), as the Cronbach’s alpha is established at α = .58. An in-depth elaboration of the reliability on each scale is found in §3.4. 
-	The construct validity of the survey, which regulates the data set up, collection, and interaction, was ensured beforehand by conducting a pre-test with several participants with different backgrounds (Golafshani, 2003; Matthews & Ross, 2010). The content validity of the research design, measuring the representation of all factors in a variable (Cohen et al., 2018), is tested and ensured through factor analysis on all relevant scales. Moreover, adapting existing scales of Kotkov et al. (2018a) and Ruvio et al. (2008), and creating scales based on the presented criteria in previous academic literature, ensures the criterion validity. The three types of validity measurement improve the generalizability of the sample (Matthews & Ross, 2010).
-	The internal and external validity of the presented research is investigated, as a quasi-experiment is included in the survey. One the one hand, internal validity of the stimulus (figure 2) refers to the control and reflection of the reality of the quasi-experiment (Winter, 2000) and is sought by recreating the layout of the most popular VOD interface, namely Netflix. Also, to ensure the presentation of non-popular and new items, the recommendations in the stimulus are self-created. Self-creating recommendations could lead to a potential threat of the internal validity, as participants may search online for the recommended items in the stimulus and notice the non-existence of each item.
-	External validity, on the other hand, refers to the generalizability of the results of the quasi-experiment (Winter, 2000) and is enforced by online distributing the survey on international platforms that include diverse potential participants. However, a threat to external validity is the skewed representation of nationalities. As presented in Appendix C (table 2), 66.6% of all participants have Dutch nationality.
-
-
-
-Figure 3. The image presented with item 1b.
-
-
-4. RESULTS
-      
-      The following chapter describes the results of this study. Firstly, an assumption check provides approval to continue with the mediation regression. Second, the first mediation model is presented, which depicts the indirect and direct effect of consumer characteristics on user satisfaction with the interference of serendipity. The direct effect of each consumer characteristic predictor is measured according to a multiple linear regression. The indirect effects are measured with PROCESS model 4 by Hayes (2017). After outlining the results of the first mediation model, the second mediation model is presented. The second mediation model records the direct and indirect effects of consumer characteristics on user satisfaction after the perception of 100% serendipity. Similar tests for the second mediation model are conducted, in comparison to the first mediation model, to establish the direct and indirect effects. Lastly, hypothesis testing is presented.
-
-
-      4.1 Assumption check
-	Before testing the mediated effect of serendipity before and after the stimulus, the descriptives of the mediation variables novelty/unexpectedness and relevance, and the outcome variable user satisfaction are presented to test if these variables are acceptable for the mediation model. As described in §3.4, new variables that calculate the mean of each participant are created to transform the ordinal character of the variables to a continuous scale. 
-	Table 7 presents an overview of the mean and standard deviation of the mediating and outcome variables before and after the appearance of the stimulus. Before the stimulus, outcome variable user satisfaction records a M = 3.62, SD = .88. After the introduction of the stimulus, the level of user satisfaction decreases to an average of M = 2.93, SD = 1.03. 
-	Moreover, the perception of serendipity changes. The perception of the serendipity component novelty/unexpectedness increases from a M = 2.95, SD = .75 before the stimulus to an average of M = 3.75, SD = .64 after the stimulus. Relevance, the second component of serendipity, presents an average of M = 3.75, SD = .68 before the appearance of the stimulus and decreases to M = 3.09, SD = 82 after the stimulus. Comparing the mean of both serendipity components before and after the stimulus, indicate that a higher level of serendipity is represented in the stimulus than the personalized VOD layout of the participant. The mean of the serendipity component novelty/unexpectedness increased from M = 2.95 (before the stimulus) to M = 3.75 (after the stimulus), indicating that participants perceived a higher level of novel and unexpected recommended items in the stimulus. The mean of relevance increased from M = 3.75 (before the stimulus) to M = 3.09 (after the stimulus), suggesting that less relevant items are presented in the stimulus to the participants due to the absence of a personalized VOD interface.
-
-Table 7. Descriptives before and after stimulus with N = 290.
-VariableBefore stimulusAfter stimulusMeanStd. DeviationMeanStd. DeviationUser satisfaction (Y)3.62.882.931.03Novelty/Unexpectedness (M1)2.95.753.75.64Relevance (M2)3.75.683.09.82
-	Before continuing to the meditation model, the Skewness value and Kurtosis are checked. Skewness measures the asymmetry of the distribution, while Kurtosis measures the ‘peakedness’ of the distribution (Pallant, 2016). The before and after stimulus results of the Skewness and Kurtosis test concerning the outcome and mediation variables are displayed in table 8. All, but one, variables record a Skewness and Kurtosis values between -1 and 1, meaning that these variables are normally distributed. One variable, relevance before the stimulus, reports a Skewness value of -1.16 and a Kurtosis of 1.68. Although these values are still acceptable according to George and Mallery (2016), a higher level of skewness could indicate a negative high skewed distribution with a high positive ‘peakedness’ level. 
-
-Table 8. Assumption check Kurtosis and Skewness before and after stimulus with N = 290. 
-VariableBefore stimulusAfter stimulusSkewnessKurtosisSkewnessKurtosisUser satisfaction (Y)-.75.38-.16-.95Novelty/Unexpectedness (M1).02-.13-.26-.09Relevance (M2)-1.161.68-.48-.48
-
-      4.2 Mediation model of the serendipity scale before the stimulus
-	To measure the indirect and direct effect of consumer characteristics on user satisfaction through serendipity as a mediating variable, the steps provided by Hayes (2017) are followed. At first, the mediation model is created (figure 4) that acts in accordance with model 4 by Hayes (2017, p. 585). All predictors are presented independent from each other and formulate indirect effect paths towards both mediators (a) and direct effect path towards the outcome (c’). The mediated paths (b) record the indirect effect of serendipity on user satisfaction. Moreover, all variables are transformed into mean-centered variables, as discussed in section §3.4 and advised by Hayes (2017). However, the limitation of mean-centered variables is reduced collinearity. Multicollinearity in the mean-centered predicting variables is carefully tested in a multiple linear regression. 
-	According to Hayes (2017), the following step is measuring the causal effect of consumer characteristics and user satisfaction by conducting a linear regression. In this case, a multiple linear regression is administered, as multiple predictors are presented. The results are presented in §4.2.1. The next step (§4.2.2) is determining the direct and indirect effect of serendipity between consumer characteristics and user satisfaction using PROCESS model 4. PROCESS model 4 by Hayes (2017) depicts a simple mediation model. The model by Hayes (2017) is adapted for this study, namely examining multiple predictors with two mediators and one outcome. Last, the conditional effects of the mediation model before the perception of the stimulus are reported (§4.2.3).
-
-
-
-Figure 4. mediation model before the introduction of the stimulus
-      4.2.1 Direct effect of consumer characteristics and user satisfaction
-	The direct effect of four independent consumer characteristics on user satisfaction is predicted according to a multiple linear regression. Prior to the regression, the following equation is formed:
-Ybefore = iy + c1Xhours + c2Xknowledge + c3Xgenre + c4Xunique + ey
-      The Casewise Diagnostics detected one outlier while conducting the multiple linear regression, therefore case number 255 is deleted from the data. Moreover, after checking studentized deleted residuals, two outliers below -3 are detected and excluded from the data. This means that a sample of N = 287 is represented in the multiple regression. A new regression is run. 
-      Linearity is visible in the second multiple linear regression, as concluded by partial regression plots of studentized residuals against the predicted values. Independence of residuals is indicated, as the Durbin-Watson statistic is .002. Visual inspection of a plot of studentized residuals versus unstandardized predicted values confirmed homoscedasticity. Moreover, no evidence of multicollinearity is found, as the tolerance varies between .92 and .98 and the VIF value varies between 1.02 and 1.08. The multiple linear regression model statistically significantly predicted User satisfaction (before), F(4, 282) = 8.899, p < .001. The R2 for the overall model is 11.2%. According to Cohen et al. (2018), a causal effect size of 11.2%, which predicts change in the dependent variable, is small. The small direct effect size indicates the importance of serendipity as a mediator. The predicting variables hours (B = 0.2, p < .05) and knowledge (B = -.30, p < .001) are statistically significant.  The other two predicting variables genre and uniqueness are not significant predictors. An overview of the multiple linear regression is presented in table 9.
-
-Table 9. Multiple regression results for user satisfaction before stimulus with N = 287
-User satisfaction95% Confidence Interval for BBLower BoundUpper BoundStd. Error BβR2Model.112Constant4.21***3.754.67.23Hours.02**.01.03.01.15Knowledge-.30***-.42-.19.06-.30Genre-.02-.06.02.02-.05Uniqueness.10-.02.23.06.10Notes: 
-• B = unstandardized beta; Std. Error B = standard error for the unstandardized beta; β = standardized beta
-• *p < .05; **p < .01; ***p < .001
-
-
-      4.2.2 Mediation effect before the stimulus
-	To estimate the mediation effect of novelty/unexpectedness and relevance before the perception of the stimulus, two equations, based on the mediation model presented in figure 4, are formed:
-
-Model MBNovUnex = iM + a1Xhours + a2Xknowledge + a3Xgenre + a4Xunique + eMBNovUnexp 
-Model MBRel = iM + a5Xhours + a6Xknowledge + a7Xgenre + a8Xunique + eMBRel 
-
-	Predicting the outcome, user satisfaction before the stimulus, in the mediation model (figure 4) using PROCESS model 4, the following equation is tested: 
-
-Model Ybefore = iY + c’1Xhours + c’2Xknowledge + c’3Xgenre + c’4Xunique + b1MBNovUnex + b2MBRel + eYbefore
-
-	Table 10 present an overview of the mediation model using PROCESS model 4 by Hayes (2017). The results of this model are used to test hypotheses H1 through H6c. The demographic variables age, gender (binary dummy variable), and nationality (binary dummy variable) are included in the mediation model as covariates or control variables. The model summary of the mediation effect before the stimulus is displayed in table 11. Conducting PROCESS model 4 (table 10) resulted in the following equations: 
-
-Model MBNovUnex = 2.90 - 0.00Xhours + 0.00Xknowledge – 0.02Xgenre + 0.10Xunique + eMBNovUnexp
-Model MBRel = 4.58 + 0.02Xhours - 0.22Xknowledge - 0.01Xgenre - 0.01Xunique + eMBRel
-
-Model Ybefore = 0.89 + 0.01Xhours - 0.11Xknowledge - 0.00Xgenre + 0.14Xunique – 0.12MBNovUnex + 0.77MBRel + eYbefore
-
-	Derived from the model summary (table 11), the regression model of the mediator novelty/unexpectedness is statistically significant F(7,279) = 3.09, p = .004. Moreover, the model records a R2 = .072, meaning that mediator novelty/unexpectedness predicts 7.2%. However, no statistically significant paths between the four consumer characteristics and novelty/unexpectedness are found. The absence of statistical significance indicates that the predictors hours (a1 = -.00, p = .619), knowledge (a2 = .00, p = .939), genre (a4 = -.02, p = .332) and users’ need for uniqueness (a4 = .10, p = .082) did not significantly predict the mediation variable of novelty/unexpectedness. Therefore, H1, H2, H3 and H4 are partially rejected. 
-	The regression model for the second mediator relevance is statistically significant F(7,279) = 8.54, p < .001. The R2 = .177, implicating that 17.7% of the variance in the serendipity component relevancy, is explained. Two predictors are presented with statistical significance, namely hours (a5 = .02, p = .006) and knowledge (a6 = -.22, p < .001). The statistical significance of both predictors means that H1 (hours) and H2 (knowledge) are partially accepted for the mediation variable relevance. However, based on previous academic literature presented in section §2.3.1, the indirect relation between the predictor hours and user satisfaction with serendipity as an interfered element was expected to have a negative effect. Hence, H1 (hours) is rejected for mediator relevance. The other predicting paths of genre (a7 = -.01, p = .400) and users’ need for uniqueness (a8 = -.01, p = .871) are not statistically significant, meaning that H3 (genre) and H4 (unique) are rejected for mediator relevance. 
-	Next, the mediation effect of novelty/unexpectedness and relevance on user satisfaction is analyzed. The regression model regarding user satisfaction is statistically significant F(9,277) = 24.75, p < .001 and explains 44.6% of the variance (R2 = .446) in user satisfaction. The predictors knowledge (c’2 = -.11, p = .024) and users’ need for uniqueness (c’4 = .14, p > .001)  are statistically significant, in addition to the statistically significant mediators novelty/unexpectedness (b1 = -.12, p = .023) and relevance (b2 = .77, p < .001). The statistical significance of the mediated variables suggests a mediated effect between consumer characteristics and user satisfaction. Moreover, due to the statistical significance of paths b1 and b2, H6ab, combining serendipity components novelty (H6a) and unexpectedness (H6b), and H6c are accepted. However, H6ab presents a negative relationship with users’ perception of VOD layouts instead of a positive relation as indicated prior to the statistical tests, and therefore, H6ab is rejected. No significant direct effect on user satisfaction is found for the predictors hours (c’1 = .01, p = .374) and genre (c’2 = -.00, p = .937). 
-	 Additionally, the demographic variables age, gender (binary dummy variable), and nationality (binary dummy variable) are included in the model and act as control variables. Table 10 shows that gender (B = -.25, p = .015) is the only statistically significant variable in the model for the first mediator novelty/unexpectedness. Moreover, age (B = -.01, p = .001) is the only statistically significant demographic variable in the model regarding the mediation variable relevance and no significant control variables are found in the regression model for user satisfaction. 
-
-Table 10. Mediation model before stimulus with N = 287
-MBNovUnexMBRelYbeforeVariablepathBs.e. BppathBs.e. B p pathBs.e. B p Constant(i1)2.90.30.000(i2)4.58.25.000(i3).89.42.036Xhoursa1 -.00.01.619a5.02.01.006c’1.01.01.374Xknowledgea2.00.06.939a6-.22.05.000c’2-.11.05.024Xgenrea3 -.02.02.332a7-.01.02.400c’3-.00.02.937Xuniquea4 .10.06.082a8-.01.05.871c’4.14.05.000MBNovUnexb1-.12.05.023MBRelb2.77.06.000Age.01.00.153-.01.00.001.01.00.086Gender-.25.10.015.10.08.221.10.09.278Nationality-.10.10.337.01.09.920-.08.09.403Notes: 
-• B = unstandardized regression coefficient; s.e. B = standard error of the coefficient; p = statistical significance
-
-Table 11. Model summary with N = 287
-Mi Novelty/Unexpectedness (before)M2 Relevance (before)Y User satisfaction (before)R2.072.177.446FF(7,279) = 3.09, p = .004F(7,279) = 8.54, p < .001F(9,277) = 24.75, p < .001
-
-
-      4.2.3 Conditional effects
-      Additionally, the PROCESS model 4 showed two indirect effects and one direct effect for each predicting variable. The first indirect effect follows the path from the predicting variable through the first mediating variable novelty/unexpectedness, resulting in user satisfaction. The path from the predicting variable to user satisfaction, with the second mediation variable relevance, forms the second indirect effect. The conditional indirect effects of each predictor are presented in table 12. 
-      The statistical relation of the indirect effect is tested with 95% bootstrap confidence interval with the criteria of differentiating from zero (Hayes, 2017). The results are presented in table 12. The bootstrap sample of 5000 is constructed the distribution of the data (95% CI). The criteria of .05 bootstrap CI level is used to reject or accept the indirect effects of the predictors. All indirect effects record small effect sizes. The most substantial indirect effect is the path from predicting variable knowledge to user satisfaction with the mediation variable relevance (a6 + b2 = -.17). To illustrate, this indirect effect size means that a decrease in established preference (knowledge) leads to a higher user satisfaction through the serendipity component relevance. However, the illustrated path (a6 + b2) is presented with statistical insignificance, as the confidence interval overlaps with 0 and, therefore, is rejected as supported indirect effect. One indirect path is accepted according to the bootstrap confidence interval: a8 + b2. This indicates that there is a negative indirect effect of the users’ need for uniqueness on user satisfaction mediated through relevant serendipitous items. 
-      
-Table 12. Indirect effect of predictors; before the stimulus with N = 287
-95% Bootstrap CIVariablespathIndirect effectsLLULXhoursa1 + b1.0004-.00.00a5 + b2.0124.00.02Xknowledgea2 + b1-.0005-.02.01a6 + b2-.1656-.27-.08Xgenrea3 + b1.0022-.00.01a7 + b2-.0102-.04.02Xuniquea4 + b1-.0123-.04.00a8 + b2-.0061-.08.08
-
-	The direct effects of the predictors on user satisfaction are presented in table 10 and table 13. Evidence of a direct effect on user satisfaction is found in the predictors knowledge (c’2 = -.11, p = .024) and users’ need for uniqueness (c’4 = .14, p < .001). No evidence of a direct effect on user satisfaction is found for the predictors hours (c’1 = .01, p = .374) and genre (c’3 = -.00, p = .937).
-	The direct effect sizes reported in the multiple regression in section §4.2.1 overlap with the statistical significance of predictor knowledge. The results of the mediation model and the results of the multiple linear regression are compared to uncover whether the predictors present statistical significance for both tests. A direct effect is found in the consumer characteristic knowledge on user satisfaction. Hence, H5 is solely accepted for the consumer characteristic of knowledge (H5b). Other consumer characteristics are statistically insignificant and therefore rejected. 
-	The fact that the statistical significance and the direct effect sizes of the multiple linear regression (table 9) and the mediation regression (table 13) differentiate is associated with the inclusion of the demographic variables as covariates in the mediation regression (table 13). The direct effects displayed in table 13 are adjusted for the control variables age, gender (binary dummy variable), and nationality (binary dummy variable). In contrast to table 9, the predictor hours is statistically insignificant in table 13, indicating that one of the demographic variables acts as confounding factor for hours. The statistical significance of predictor users’ need for uniqueness is just above the acceptable p-value (p = .097) in table 9. Due to the interference of demographic variables, the predictor records statistical significance (p = .006) in table 13. Knowledge is statistically significant in both tables, and therefore, no confounding factors are associated with this predictor. 
-
-Table 13. Direct effect of predictors; before the stimulus with N = 287
-VariablepathDirect effectS.E.pXhoursc’1.0055.01.374Xknowledgec’2-.1147.05.024Xgenrec’3-.0013.02.937Xuniquec’4.1420.05.006
-
-      4.3 Mediation model of the serendipity scale after the stimulus
-	An addition to this study is a quasi-experiment that measures user satisfaction after the perception of 100% serendipity based on the four, previously presented, consumer characteristics. The same steps, as shown in the previous section (§4.2), by Hayes (2017) are followed to uncover the indirect and direct effect of consumer characteristics on user satisfaction, with serendipity as a mediated component, after the perception of a 100% serendipity stimulus. The mediation model is presented in figure 5. 
-
-
-
-Figure 5. Mediation model after the introduction of the stimulus      
-      4.3.1 Direct effect of consumer characteristics and user satisfaction
-	The direct effect of the four predictors, hours, knowledge, genre, and unique, on user satisfaction after the perception of the stimulus is measured according to a multiple linear regression based on the following equation: 
-Yafter = iy + c1Xhours + c2Xknowledge + c3Xgenre + c4Xhours + ey
-	While conducting the multiple linear regression, no outliers are detected by The Casewise Diagnostics. Other assumptions of the multiple regression, linearity and homoscedasticity, are assessed and accepted. Moreover, the Durbin-Watson statistic, tolerance value, and VIF value present acceptable scores and are, therefore, accepted. The overall multiple linear regression is not statistically significantly predicting user satisfaction after the perception of the stimulus, F(4, 282) = .356, p = .840. Moreover, all four variables are statistically insignificant. The R2 is established at 0.5%, meaning that a very small percentage predicts the change in the dependent variable. The minimal direct effect size indicates the importance of serendipity as a mediator. The results of the multiple regression regarding the user satisfaction after the perception of the stimulus, are presented in table 14. 
-
-Table 14. Multiple regression results for user satisfaction after stimulus with N = 287
-User satisfaction95,0% Confidence Interval for BBLower BoundUpper BoundStd. Error BβR2Model.005Constant2.73***2.143.32.30Hours-.00-.02.01.01-.03Knowledge-.01-.16.14.07-.01Genre.02-.03.07.03.04Uniqueness.08-.08.24.08.06Notes: 
-• B = unstandardized beta; Std. Error B = standard error for the unstandardized beta; β = standardized beta
-• *p < .05; **p < .01; ***p < .001
-
-      4.3.2 Mediation effect
-	Two equations are formed, based on the mediation model (figure), that measures the mediation effect of novelty/unexpectedness and relevance after the perception of 100% serendipity: 
-
-Model MANovUnex = iM + a1Xhours + a2Xknowledge + a3Xgenre + a4Xunique + eMANovUnexp 
-Model MARel = iM + a1Xhours + a2Xknowledge + a3Xgenre + a4Xunique  + eMARel 
-
-	The following equation is constructed to predict the outcome of user satisfaction after the stimulus:
-
-Model Yafter = iY + c’1Xhours + c’2Xknowledge + c’3Xgenre + c’4Xunique + b1MANovUnex + b2MARel + eYAfter
-	
-      The mediation model is conducted using PROCESS model 4. The results of the model are presented in table 15. The demographic variables age, gender (binary dummy variable), and nationality (binary dummy variable) act as control variables. The following equations resulted from the mediation model: 
-
-Model MANovUnex = 4.33 + 0.00Xhours – 0.02Xknowledge – 0.01Xgenre – 0.08Xunique + eMANovUnexp 
-Model MARel = 2.66 – 0.00Xhours + 0.04Xknowledge + 0.01Xgenre + 0.10Xunique + eMARel 
-
-Model Yafter = 1.67 + 0.00Xhours – 0.03Xknowledge + 0.01Xgenre - 0.00Xunique – 0.33MANovUnex + 0.83MARel + eYAfter
-
-	The model summary (table 16), reports a statistical significant regression model for the mediator novelty/unexpectedness F(7,279) = 2.32, p = .026. The mediator novelty/unexpectedness explains 5.5% of the variance of the outcome in the model. However, all paths to novelty/unexpectedness are presented with statistical insignificance. 
-	The next regression model regarding the mediator relevance is statistically insignificant F(7,279) = 1.39, p = .339 with R2 = .029. Additionally, no predictors are found statistically significant.
-	The regression model on user satisfaction considering mediators novelty/unexpectedness and relevance is statistically significant F(9,277) = 39.66, p < .001 and explains 56.3% of the variance (R2 = .563) in user satisfaction. The high percentage of the explained variance indicates the strong mediated effect of serendipity between the consumer characteristics and user satisfaction. Moreover, all user characteristics are presented with statistical insignificance. Nonetheless, both mediating variables novelty/unexpectedness (b2 = -.33, p < .001) and relevance (b3 = .83, p < .001) present statistical significance. 
-	The control variables, or the demographic variables age, gender (binary dummy variable), and nationality (binary dummy variable), are included in the model. For model MANovUnex and MARel, statistical significance is found in the control variable age. The other demographic variables for both mediating models are statistically insignificant. For the mediation model with user satisfaction after the stimulus as outcome, no control variables are found that presented statistical significance. 
-
-Table 15. Mediation model after stimulus with N = 287
-MANovUnexMARelYafterVariablepathBs.e. BppathBs.e. B p pathBs.e. B p Constant(i1)4.33.26.000(i2)2.66.33.000(i3)1.67.47.000Xhoursa1 .00.01.966a5-.00.01.579c’1.00.01.791Xknowledgea2-.02.05.687a6.04.06.477c’2-.03.05.577Xgenrea3 -.01.02.665a7.01.02.487c’3.01.02.590Xuniquea4 -.08.05.126a8.10.07.129c’4-.00.06.938MANovUnexb1-.33.07.000MARelb2.83.05.000Age-.01.00.001-.00.00.277-.00.00.762Gender.01.09.870.13.11.255.04.09.701Nationality-.01.09.949.14.12.217-.02.10.850Notes: 
-• B = unstandardized regression coefficient; s.e. B = standard error of the coefficient; p = statistical significance
-
-
-Table 16. Model summary with N = 287
-Mi Novelty/Unexpectedness (after)M2 Relevance (after)Y User satisfaction (after)R2.055.029.563FF(7,279) = 2.32, p = .026F(7,279) = 1.39, p = .339F(9,277) = 39.66, p < .001
-
-      4.3.3 Conditional effects
-	Similar to the previous indirect effects before the perception of the stimulus (table 12), PROCESS model 4 presents two small indirect effects sizes for each individual predictor. The paths of the indirect effects for each predictor after the perception of 100% serendipity are displayed in table 17.  
-	A bootstrap sample of 5000, with .05 as acceptance/rejection level, is used to measure the statistical relation of the indirect effects. Comparing the indirect effect results of table 12 to table 17, similar paths presents statistical relations of the indirect effect. The path from predictor knowledge to relevance to user satisfaction (a6 + b3) suggests a small positive indirect effect. Moreover, a small positive indirect effect is found in the path from predictor users’ need for uniqueness to relevance to user satisfaction (a8 + b3).  However, the confidence intervals for these effects overlap 0, and therefore, no conclusions regarding the indirect effects between consumer characteristics and user satisfaction after the perception of the stimulus are drawn. 
-
-Table 17. Indirect effect of predictors; after stimulus with N = 287
-95% Bootstrap CIVariablespathIndirect effectsLLULXhoursa1 + b1-.0001-.00.00a5 + b2-.0036-.02.01Xknowledgea2 + b1.0064-.03.04a6 + b2.0367-.07.15Xgenrea3 + b1.0023-.01.01a7 + b2.0122-.02.05Xuniquea4 + b1.0257-.01.07a8 + b2.0824-.03.19
-	The direct effects of each predictor on user satisfaction are displayed in table 18. No evidence is found of a direct effect, as all effects present a significance level of p > .05. After analyzing the statistical insignificance of the direct effects on user satisfaction, it is concluded that no direct effect is found between consumer characteristics and user satisfaction after the perception of 100% serendipity. 
-
-Table 18. Direct effect of predictors; after stimulus with N = 287
-VariablepathDirect effectS.E.pXhoursc’1.0018.01.791Xknowledgec’2-.0295.05.577Xgenrec’3.0096.02.590Xuniquec’4-.0043.06.938
-
-		
-
-
-
-      4.4 Hypothesis testing
-	Table 19 presents an overview of all accepted and rejected hypotheses. The results of the hypotheses reflect on serendipity in a personalized VOD environment. The acceptable effect sizes of the mediation model before the stimulus are displayed in figure 6. As no acceptable indirect or direct effect sizes are found in the mediation model after the perception of 100% serendipity, no additional visualizing figure is created.
-
-Table 19. Accepted and rejected hypotheses
-HypothesisMediator Nov/UnexpMediator Relevance OutcomeH1: The number of hours spent on VOD platforms is negatively associated with perceiving serendipityRejectedRejectedRejectedH2: Knowledge of content by users of VOD platforms is negatively associated with perceiving serendipityRejectedAcceptedPartially acceptedH3: Genre diversity is positively associated with perceiving serendipityRejectedRejectedRejectedH4: Users’ need for uniqueness is positively associated with perceiving serendipityRejectedRejectedRejectedH5a: The number of hours spent on VOD platforms relates negatively to users’ perceptions of VOD layoutsRejectedH5b: Knowledge of content by users of VOD platforms relates negatively to users’ perceptions of VOD layoutsAcceptedH5c: Broad interest in genre relates positively to users’ perceptions of VOD layoutsRejectedH5d: Users’ need for uniqueness relates positively to users’ perceptions of VOD layoutsRejectedH6ab: Novelty/Unexpectedness in the context of serendipity relates positively to users’ perceptions of VOD layoutsRejectedH6c: Relevance in the context of serendipity relates positively to users’ perceptions of VOD layoutsAccepted
-
-
-Figure 6. Mediation model before the stimulus with accepted hypotheses (N = 287)
-
-
-5. DISCUSSION
-
-	The following chapter presents the most important findings of this study. Firstly, the literature implications will be discussed in three parts: (1) the perception of serendipity by consumers, (2) the mediating role of serendipity, and (3) the evaluation of recommendation systems through an assessment of user satisfaction. Secondly, suggestions for VOD environments are provided so as to improve their recommendation system. The last part of the discussion outlines the limitations of the study and presents suggestions for future research regarding the implementation of serendipity in VOD recommendation systems based on consumer characteristics.
-	
-      5.1 Literature implications
-	The objective of this thesis is to establish the role and level of serendipity in VOD environments for consumers that present particular characteristics by following the research question: To what extent do users perceive and are affected by serendipity in VOD layouts?. To realize the main objective of this study, a closer look had to be taken at the scale of the four presented consumer characteristics, the level of perceived serendipity, and the user satisfaction of VOD layouts.
-      Accordingly, this study is structured in three parts, as is reflected in section §5.1. The perception of serendipity by VOD consumers based on their characteristics is outlined and studied in the first part of this thesis. The perception is constructed of two parts; identifying (1) novel/unexpected items and (2) relevant items. The second part of this section discusses the mediating role of serendipity elements between consumer characteristics and user satisfaction of VOD interfaces. Again, the mediating aspect of both serendipity elements is discussed separately and collectively. Lastly, an evaluation of a personalized VOD environment and implementation of 100% serendipity stimulus is presented by assessing the level of user satisfaction.
-
-	5.1.1 The perception of serendipity
-      This study follows the serendipity measurement according to Kotkov et al. (2018a). In Kotkov’s study (2018a), three elements of serendipity are differentiated. Namely, novelty, unexpectedness, and relevance. This thesis solely found two elements of perceived serendipity. The first serendipity element in this study combines novelty and unexpectedness in one element. Relevance is the second serendipity element used in this study. The perception of both serendipity elements in personalized VOD environments are studied based on the four presented consumer characteristics: (1) hours spent on VOD platforms, (2) the level of knowledge the consumer encompasses before the visitation of VOD environments, (3) the number of interested genres and (4) the users’ need for uniqueness.
-      For the perception of the mediator novelty/unexpectedness in relation to the presented consumer characteristics, no significant relations are found. In other words, consumers were unable to perceive the combining serendipity element of novelty and unexpectedness. A possible explanation for the insignificance of all paths between consumer characteristics and novelty/unexpectedness is the inability of the consumer to perceive the combination of the elements. Novel items are not necessarily unexpected, and unexpected items are not necessarily novel. The absence of statistical significance highlights the importance of separating each serendipity element.
-      On the other hand, the consumer characteristics of hours and knowledge do present statistical significance for the perception of serendipity element relevance. Firstly, the relation between the hours spent on a VOD platform and perceiving relevant serendipitous items is statistically significant. However, contrary to Nguyen et al. (2014), it records a positive effect rather than a negative one. The positive relation could indicate two possible scenarios. The first possible scenario, as discussed by Berry et al. (2011), is that power-users of VOD content increasingly ignore provided recommendations. This can be, for example, because, power-users watch pre-selected TV shows in one genre category. By ignoring recommendations and constantly consuming similar content, the data collection and preference development for consumer profiles are reduced. As a result, the consumer perceives a higher level of serendipity in the provided recommendation. An alternative explanation for the positive relation between the predictor hours and serendipity component relevance is the perception of solely relevant recommendations without the perception of the other serendipity components of novelty and unexpectedness. This is highly feasible, as the relation between the predictor hours and mediator novelty/unexpectedness is insignificant. The fact that a high level of relevant recommendations is perceived by power-users, outside the context of serendipity, could indicate that the preferences of these consumers are reflected in the provided recommendations.
-      The second statistically significant relation is found between the predictor knowledge and serendipity element relevance. The significance of this relation affirms the results of Xiao and Benbasat (2007) and Goodman et al. (2013) concluding that consumers with highly developed preferences and product expertise are less likely to be pleased with the provided recommendations. The findings of this thesis demonstrate that consumers with highly developed preferences, and therefore an established user profile, perceive a high level of relevant recommendations. However, similar to the previously discussed relation regarding hours and relevance, the relation between predictor knowledge and mediator novelty/unexpectedness is insignificant. Hence, no conclusion can be drawn regarding the perception of relevant recommendations in the context of serendipity by knowledgeable consumers, as it is likely that serendipity components novelty and unexpectedness are not considered.
-      Again, an item is serendipitous if the item is novel, unexpected, and relevant (Kotkov et al., 2018b). The fact that not one consumer characteristic presents statistical significance for both mediators implies that no evidence is found that consumers perceive serendipity in their personalized VOD environment. The absence of perceiving serendipity could indicate two scenarios. First, the consumer might not be aware that they perceive serendipity. Novel and unexpected items are repeatedly recommended to the consumers without and therefore recognized as familiar and expected items (Silveira et al., 2019). A second, and possibly dangerous scenario, is that no serendipity or a very low percentage of serendipity is presented to the consumers. Serendipity is the solution to prevent the filter bubble (Maccatrozzo, 2012; Ricci et al., 2012; Nguyen et al., 2014; Saat et al., 2018; Kotkov et al., 2018a, 2018b; Silveira et al., 2019). Without serendipity in recommendation systems, consumers are constantly exposed to the feedback loop that reaffirms existing perspectives and limits the exposure of other perspectives (Chaney et al., 2018). Especially since consumers are becoming more dependent on recommendation systems (Banker & Khetani, 2019), the implementation of serendipity to prevent the filter bubble is becoming more important.
-      
-      5.1.2 The mediating role of serendipity 
-      In line with previous academic literature by Maccatrozzo et al. (2017b) and Silveira et al. (2019), evidence is found that serendipity acts as a mediating variable between consumer characteristics and user satisfaction. Therefore, this thesis contributes to the theory by Kotkov et al. (2018b) which explains that the implementation of serendipity in algorithmic design influences the level of user satisfaction in VOD environments. Evidence of the mediating role of serendipity is explained by means of (1) the absent direct effect, (2) the change in explained variance in the multiple linear regression and mediation regression and (3) the difference in variable mean after the stimulus compared to the mean before the stimulus. 
-      First, to follow the mediation model steps by Hayes (2017), a multiple linear regression was run to uncover the direct effects between consumer characteristics and user satisfaction without the interference of serendipity. A minimal effect or no direct effect is expected as consumers are immediately exposed to serendipity when visiting VOD platforms, as serendipity is incorporated in the recommendations that form the interface (Ricci et al., 2012). The multiple linear regression model (table 9) records two significant and small direct effect sizes between consumer characteristics hours and knowledge and the outcome user satisfaction. Even though the other two direct effects between the predictors genre and uniqueness and outcome user satisfaction present statistically insignificance, the paths indicate a small direct effect size. As no direct effect between all consumer characteristics and user satisfaction was expected, no academic literature is searched to underpin these hypotheses. However, because the relation between knowledge and user satisfaction presents the most substantial direct effect of -.30, an explanation is sought. As discussed by Xiao and Benbasat (2007) and Knijnenburg et al. (2012), knowledgeable consumers purposefully search for content as they have knowledge of content beforehand. As a result, the importance of the mediating role of serendipity reduces. If consumers have developed preferences and want to watch a specific TV show, they could be disappointed if the preferred TV show is not included in the VOD catalog. Hence, user satisfaction decreases. Additionally, the overall explained variance of the causal direct effect resulted from the multiple linear regression model is 11.2% and, therefore, described as being small by Cohen et al. (2018). To summarize the above, the small direct effect sizes between each consumer characteristic and user satisfaction and the low explained variance of the multiple linear regression model demonstrates the mediating role of serendipity. 
-      Second, the high percentage of total explained variance in user satisfaction before the stimulus (44.6%) suggests the mediated relation of serendipity. Without the interference of serendipity, as recorded in the multiple linear regression (table 9), the explained variance is low (11.2%). However, the explained variance of the mediation model (table 13) increases extensively due to the implementation of serendipity.
-      Third, evidence is found regarding the mediating role of serendipity in comparing the mediation model of the serendipity scale for personalized VOD environments and the mediation model after the perception of the stimulus. Presenting the same serendipity scales before and after the perception of 100% serendipity records a difference in mean of mediators’ novelty/unexpectedness and relevance and outcome user satisfaction (table 7). The difference in variable mean after a change in the level of implemented serendipity emphasizes the mediating role of serendipity. Explanations for a decrease in the mean of novelty/unexpectedness and increase in the mean of relevance are to be found in §5.1.1 and the change in the mean of the outcome user satisfaction is explained in §5.1.3.
-      
-      5.1.3 User satisfaction in VOD environments
-	The third part of this thesis is to uncover the user satisfaction of serendipity in a personalized VOD environment and a stimulus with 100% serendipity based on the four presented consumer characteristics. 
-      First, user satisfaction in a personalized VOD environment is explored in the first mediating regression model (figure 4). As hypothesized, the serendipity element of relevance records a positive relation towards user satisfaction (path b1). In line with Silveira et al. (2019), the personalized recommendations for VOD consumers represent relevant content that is related to their preferences. The large effect size between relevance and user satisfaction suggests the importance of the serendipity component relevance. However, contrary to Matt et al. (2014), Kotkov et al. (2018b), and Silveira et al. (2017), the serendipity component novelty/unexpectedness reports a negative path (b2) towards user satisfaction. The negative effect, although small, indicates an off-balance of novelty or unexpectedness in provided recommendations (Matt et al., 2014). Maccatrozzo et al. (2017b) describe another possible explanation for the negative relation by questioning the coping ability of consumers to perceive novel recommendations. Moreover, observing unexpected items could be a positive or negative surprise. The small negative effect between novelty/unexpectedness and user satisfaction suggests that a small percentage of the personalized recommendations are perceived as a negative surprise. 
-      The fact that consumers are not able to cope with novelty is presented in the results of the second mediation model (figure 5), as the statistically significant path (b1) between novelty/unexpectedness and user satisfaction reports an increased negative effect. After the perception of all unfamiliar and novel items, the negative effect size towards user satisfaction increases. The importance of receiving relevant recommendations in a 100% serendipitous environment increases as well. Therefore, the stimulus contributes to the theory by Silveira et al. (2019) that relevance is the most essential serendipity component. 
-      However, as serendipity elements of novelty and unexpectedness record a negative relation and do not act in coherence with the other serendipity element of relevance, consumers were unable to perceive serendipity in both mediation models. Moreover, the insignificance of all other paths in the second mediation model (figure 5) suggests that consumers are unable to cope with 100% serendipity if it is presented out of the blue. As expected, a personalized recommendation environment increases the level of user satisfaction (Silveira et al., 2019). The results of the serendipity scale after the perception of the stimulus indicates that the implementation of serendipity needs to happen slowly and stretched over a more extended period.  
-
-      5.2 Institutional implication
-      This thesis supports the assumption of the mediating role of serendipity in recommendation environments between consumer characteristics and user satisfaction. Therefore, VOD companies should be aware of implementing the right amount of serendipity in their provided recommendations. The findings of this thesis report the serendipity element of relevance as the most important component in serendipity. A high level of relevance should, therefore, be presented in serendipitous items, when balancing with novelty and unexpectedness. The negative result of novelty/unexpectedness indicates that VOD consumers should be careful with the high-level representation of the combining serendipity factor. Thus, implementing novel and unexpected items should be established in combination with a high level of relevance. 
-      Due to the statistical insignificance of the relation between almost all consumer characteristics and user satisfaction, it is concluded that consumers were unable to identify serendipitous items. No consumer characteristic significantly perceived all elements of serendipity. In order to increase the perception of serendipity, and therefore the user satisfaction, a higher level of serendipitous items needs to be considered. With the implementation of serendipitous items, the coping level of each consumer should be investigated and included in user profiles. Also, the coping level could be based on the demonstrated consumer characteristics in this thesis. Assessing the level of each consumer characteristic advises VOD companies whether the consumer is able to deal with serendipity and if a high level of serendipity is preferred. Due to the results of the stimulus with 100% novel items, it can suggest implementing serendipity slowly, as a high level of serendipity out of the blue decreases the ability to perceive serendipity and decreases user satisfaction. 
-      This thesis is not suggesting the right algorithmic design that should be implemented in VOD environments. Instead, the study sheds light on the underrepresentation of serendipitous items. Similar to Gomez-Uribe and Hunt (2015), a suggestion for VOD companies is to conduct randomized and controlled experiments in the form of A/B testing. For example, the representation of serendipitous items is increased for selected participants and the actions following the change in the algorithmic design are tracked. A control group is included to compare the performance of the recommendation system between both groups. 
-
-	5.3 Limitations
-      As with any research, this thesis is not without limitations. These limitations are presented in this section. First of all, the low reliability of the consumer characteristic knowledge is highlighted once more. As no previous academic literature provided a scale to uncover the level of knowledge by consumers, a knowledge scale is established from four possible characteristics as derived from literature. Three out of five statements are deleted to increase the reliability of the scale. By removing those statements, the description of the variable knowledge was narrowed to solely one criterion: developed TV show/movie preferences. This criterion recorded the small internal consistency of .58. Although the results of the variable knowledge are questionable, based on Bernardi (1994), the results are not inadmissible.
-      A second limitation of this study is found in the presented stimulus. The stimulus is aimed to be 100% serendipity; however, as explained by Maccatrozzo et al. (2017b), the concept of serendipity is subjective. Although the stimulus presents the highest level of novelty, the level of unexpectedness and relevance is different for each participant. The statistical insignificance of the second mediation model (figure 5) confirms the disability of the participants to perceive a coherent serendipity implementation. To illustrate, the items in the stimulus suggest genres by presenting conventional images of a particular genre. For example, the genre horror is presented with a hand from a grave (figure 2). It is, however, possible that participants did not perceive their preferred genres from the images. As a result, it is possible that 100% novelty is perceived and 0% relevance. Hence, the stimulus did not present serendipity to the participant. 
-      Third, combining serendipity elements novelty and unexpectedness limited the results, as the effect sizes of novelty and unexpectedness could not be measured separately. As discussed by Kotkov et al. (2018a), the level of all serendipity elements should be able to be perceived on their own. In combining these two elements, the importance and effect of each item are dismissed. 
-      Furthermore, a limitation of this thesis is the skewed sample. Using a snowball effect to obtain new participants, limited the diversity of the sample as 66.6% of the participants selected a Dutch nationality. Also, more than half of all participants have completed a bachelor’s degree or higher. To generalize the results of this study, the sample should be representable for all users of VOD platforms. The results of this thesis might be generalizable for the highly educated Dutch population; however, the results could deviate if another nationality is overrepresented.  
-      Fifth, the stimulus represents the layout of Netflix. Although Netflix is the most preferred platform, 14.1% of the participants prefer another VOD platform. These consumers have less knowledge on the design of the layout and might not know how to perceive the recommendations. This could affect the knowledgeable consumers and influence user satisfaction. 
-      Last, consumers watch VOD content on multiple devices, such as a mobile phone, television, or laptop. The VOD layout of each device differentiates, and therefore, the perception of serendipity changes. For example, the provided recommendation of Netflix on a mobile device is lower than the recommendations seen in the Netflix layout on a laptop screen. The devices that the participant uses to watch content is not considered. 
-
-	5.4 Future research
-      A suggestion for future research regarding consumer characteristics, serendipity, and user satisfaction, is conducting a mixed method with quantitative and qualitative aspects. A qualitative approach could be used to uncover the need for serendipity more in-depth. For example, interviewing multiple VOD consumers with the four presented personality traits could build on the reliability level of the knowledgeable consumer scale. 
-      Another suggestion for future research is an improvement of the stimulus. For example, with a qualitative approach, the stimulus could be adapted to the preferences of participants to ensure the representation of all serendipity components. Moreover, although Netflix is the most preferred VOD platform, the stimulus could be adapted to another VOD platform if Netflix is not selected. Changing the VOD environment to the participant reflects an increased representation of reality, as the interface is personalized. 
-	Third, the coping potential by Maccatrozzo et al. (2017b) could be further integrated into the design of this study. As discussed, consumers were unable to cope with the level of serendipity presented in the stimulus. Future research could, therefore, create a more balanced implemented serendipity level to uncover when the coping ability of the consumers is maximized. 
-	Last, to expand the evaluation of the performance of recommendation systems, preference broadening could be added as another potential outcome. Preference broadening is already included in the serendipity scale by Kotkov et al. (2018a), and therefore, easy to explore with the collected data. Another addition to this study, besides increasing the scope of the study by adding an extra outcome, is implementing other consumer characteristics, such as the personality trait of curiosity, as put forward in Maccatrozzo et al. (2017a).
-
-
-
-6. CONCLUSION
-
-      This section expresses concluding remarks on the study object of serendipity in VOD environments perceived and assessed by consumers with particular characteristics. The following research question is central in this study:
-
-To what extent do users perceive and are affected by serendipity in VOD layouts?
-
-	The relatively new research field of serendipity in recommendation systems is increasingly explored since the growing dependence of algorithmic designs by consumers and the existence of filter bubbles and echo chambers (Saat et al., 2018; Banker & Khetani, 2019). The VOD market, an even newer field of research, is expanding in competitors and consumers and incorporates recommendation systems for marketing and competitive purposes. Therefore, the concept of serendipity within recommendation systems is increasingly linked to VOD environments. To known knowledge, Maccatrozzo et al. (2017a) is the first and only to investigate the effect of consumer characteristics on user profiles and therefore uncovers the need for serendipitous items that eventually lead to increased user satisfaction. Building on the suggested personality trait, curiosity, this thesis investigated other consumer characteristics that are potentially in need of a higher serendipity level. 
-      The first aim of this study was to uncover the perception of serendipity based on four consumer characteristics: (1) hours spent on VOD platforms, (2) knowledgeable consumers, (3) broad interest in genre, and (4) users’ need for uniqueness. According to Kotkov et al. (2018b), serendipity is perceived if consumers consider a recommendation novel, unexpected, and relevant. Interestingly, this thesis did not find evidence that a combination of all serendipity elements is perceived in personalized recommendations by VOD companies. Additionally, in the stimulus with 100% novel items a combination of all serendipity items was not perceived by consumers. The findings of this thesis, therefore, contradict the conclusions by Ricci et al. (2012) that serendipity is included in VOD recommendation systems. For future research, it is important that the level of serendipity implementation is based on consumer characteristics that express a higher need.
-      The thesis had a second aim to find evidence of the mediating role of serendipity. This thesis contributes to the results of Chen et al. (2019) that discusses serendipity as the mediating component to assess the performance of recommendation systems. Increasing the serendipity component of novelty to 100% in the stimulus influences the outcome of user satisfaction. Although no conclusions can be drawn regarding the perception of serendipity in the stimulus due to the subjective character of unexpectedness and relevance, the evidence of serendipity as a mediator is substantial. Therefore, a suggestion for an institutional implication is made that VOD companies should experiment to find the right balance of serendipity elements in recommendation algorithms. 
-      The final aim of this thesis was to measure the extent to which consumers are affected by serendipitous items by means of evaluating their level of user satisfaction. Contrary to Matt et al. (2014), the combining element of novelty and unexpectedness present a small negative effect on user satisfaction. According to Maccatrozzo et al. (2017a), the negative result indicates that consumers were unable to cope with the suggestions of novel and unexpected items. Additionally, the stimulus with 100% novel items learned that consumers were unable to cope with this level of novelty. In line with Kotkov et al. (2018b), relevant recommendations record a sizeable positive effect on user satisfaction in the serendipity scale before and after the stimulus. Therefore, this thesis concludes that relevance is the most important element of serendipity. 
-      To known knowledge, this thesis is the second attempt, besides the study conducted by Maccatrozzo et al. (2017a), that considers the need for serendipity for specific consumer characteristics in VOD environments. The growing VOD catalog and growing dependence on recommendation systems call for the right application of algorithms, including the element of serendipity. It is the rightful duty of VOD companies to educate their consumers by highlighting different perspectives on structural mindsets through serendipitous items. By means of including the presented consumer characteristics in user profiles, the coping ability and need for serendipity are reflected in the algorithmic design and, therefore, the personalized VOD interface. The implementation of serendipity based on consumer characteristics helps consumers to broaden their preferences and VOD companies to increasingly set foot in the evolving market.
-
-
-
-
-
-REFERENCES
-
-Almeida Lima, C., Gouveia Moreira, D., Costa Calazans, J. (2015). Netflix and the maintenance of television genres out of the flow. Matrizes, 9(2), 237-255. http://dx.doi.org/10.11.606/issn.1982-8160.v9.i2p.237-256
-Ban, T. A. (2006). The role of serendipity in drug discovery. Dialogues in Clinical Neuroscience, 8(3), 335-344. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3181823/
-Banker, S., & Khetani, S. (2019). Algorithm Overdependence: How the Use of Algorithmic Recommendation Systems Can Increase Risks to Consumer Well-Being. Journal of Public Policy & Marketing, 38(4), 500–515. https://doi.org/10.1177/0743915619858057
-Barnes, B. (2019, November 10). Netflix Was Only the Start: Disney Streaming Service Shakes an Industry. The New York Times. Retrieved from https://www.nytimes.com/2019/11/10/business/media/Disney-Plus-streaming.html
-Barnes, B. (2020, February 4). Disney Plus Racks Up 28.6 Million Subscribers. The New York Times. Retrieved from https://www.nytimes.com/2020/02/04/business/media/disney-earnings.html
-Bennett, J., & Lanning, S. (2007). The Netflix Prize. In Proceedings of KDD Cup and Workshop (pp. 3 - 6). San Jose, California, USA. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.8094&rep=rep1&type=pdf
-Bernardi, R. A. (1994). Validating Research Results when Cronbach’S Alpha is Below .70: A Methodological Procedure. Educational and Psychological Measurement, 54(3), 766–775. https://doi.org/10.1177/0013164494054003023 
-Berry, S., Fazzio, S., Zhou, Y., Scott, B., & Francisco-Revilla, L. (2010). Netflix recommendations for groups. Proceedings of the American Society for Information Science and Technology, 47(1), 1-3. https://doi.org/10.1002/meet.14504701402
-Bhattacharya, S., Gollapudi, S., & Munagala, K. (2011). Consideration set generation in commerce search. Presented at the Proceedings of the 20th International Conference on World Wide Web, Hyderabad, India. https://doi.org/10.1145/1963405.1963452
-Biernacki, P., & Waldorf, D. (1981). Snowball Sampling: Problems and Techniques of Chain Referral Sampling. Sociological Methods & Research, 10(2), 141–163. https://doi.org/10.1177/004912418101000205
-Bozdag, E. (2015). Bursting the filter bubble: Democracy, design, and ethics. Delft, The Netherlands: Technische Universiteit Delft. https://doi.org/10.4233/uuid:87bde0a2-c391-4c77-8457-97cba93abf45
-Bressan, M., Leucci, S., Panconesi, A., Raghavan, P., & Terolli, E. (2016). The Limits of Popularity-Based Recommendations, and the Role of Social Ties. Presented at the KDD ’16: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, United States. https://doi.org/10.1145/2939672.2939797
-Calder, B. J., Phillips, L. W., & Tybout, A. M. (1981). Designing Research for Application. Journal of Consumer Research, 8(2), 197–207. https://doi.org/10.1086/208856
-Chaney, A. J. B., Stewart, B. M., & Engelhardt, B. E. (2018). How algorithmic confounding in recommendation systems increases homogeneity and decreases utility. In Proceedings of the 12th ACM Conference on Recommender Systems (pp. 224–232). https://doi.org/10.1145/3240323.3240370
-Chen, L., Yang, Y., Wang, N., Yang, K., & Yuan, Q. (2019). How Serendipity Improves User Satisfaction with Recommendations? A Large-Scale User Evaluation. In Proceeding of the 2019 World Wide Web Conference (pp. 240–250). https://doi.org/10.1145/3308558.3313469
-Cohen, L., Manion, L., & Morrison, K. (2018). Research Methods in Education (8th ed.). Abingdon, United Kingdom: Routledge. ISBN 9781138209886.
-De Vriendt, J., Degrande, N., & Verhoeyen, M. (2011). Video content recommendation: An overview and discussion on technologies and business models. Bell Labs Technical Journal, 16(2), 235–250. https://doi.org/10.1002/bltj.20513
-DeVellis, R. F. (2003). Scale development: Theory and applications (2nd ed.). Thousand Oaks, CA: Sage Publications. ISBN 9781506341569
-Dew, N. (2009). Serendipity in entrepreneurship. Organization Studies, 30(7), 735-753. https://doi.org/10.1177/0170840609104815
-Ekstrand, M. D., Maxwell Harper, F., Willemsen, M. C., & Konstan, J. A. (2014). User perception of differences in recommender algorithms. In Proceedings of the 8th ACM Conference on Recommender systems (pp. 161–168). https://doi.org/10.1145/2645710.2645737
-Etikan, I., Musa, S. A., & Alkassim, R. S. (2016). Comparison of Convenience Sampling and Purposive Sampling. American Journal of Theoretical and Applied Statistics, 5(1), 1–4. https://doi.org/10.11648/j.ajtas.20160501.11 
-Eordogh, F. (2019, February 18). YouTube’s Related Video Algorithm Helpful To Predators. Retrieved from https://www.forbes.com/sites/fruzsinaeordogh/2019/02/18/youtubes-related-video-algorithm-helpful-to-predators/#2e7256774872
-Foster, A., & Ford, N. (2003). Serendipity and information seeking: an empirical study. Journal of Documentation, 59(3), 321–340. https://doi.org/10.1108/00220410310472518 
-George, D., & Mallery, P. (2016). IBM SPSS Statistics 23 Step by Step (14th ed.). Abingdon, United Kingdom: Routledge. ISBN 9781138681347
-Ghazanfar, M. A., & Prigel-Bennett, A. (2010). A Scalable, Accurate Hybrid Recommender System. Presented at the Third International Conference on Knowledge Discovery and Data Mining, Phuket, Thailand. https://doi.org/10.1109/WKDD.2010.117
-Golin, M. (1957). Serendipity – Big word in medical progress: Does pure luck deserve all the credit?.  Journal of the American Medical Association, 165(16), 2084-2087. https://doi.org/10.1001/jama.1957.72980340011013
-Golafshani, N. (2003). Understanding Reliability and Validity in Qualitative Research. The Qualitative Report, 8(4), 597–607. Retrieved from http://www.brown.uk.com/teaching/HEST5001/golafshani.pdf 
-Gomez-Uribe, C. A., & Hunt, N. (2015). The Netflix Recommender System: Algorithms, Business Value, and Innovation. ACM Transactions on Management Information Systems, 6(4), 1-19. https://doi.org/10.1145/2843948
-Goodman, J. K., Broniarczyk, S. M., Griffin, J. G., & McAlister, L. (2013). Help or hinder? When recommendation signage expands consideration sets and heightens decision difficulty. Journal of Consumer Psychology, 23(2), 165–174. https://doi.org/10.1016/j.jcps.2012.06.003
-Grange, C., Benbasat, I., & Burton-Jones, A. (2019). With a little help from my friends: Cultivating serendipity in online shopping environments. Information & Management, 56(2), 225–235. https://doi.org/10.1016/j.im.2018.06.001
-Haim, M., Graefe, A., & Brosius, H. B. (2018). Burst of the filter bubble? Digital Journalism, 6(3), 330-343. https://doi.org/10.1080/21670811.2017.1338145
-Hallinan, B., & Striphas, T. (2014). Recommended for you: The Netflix Prize and the production of algorithmic culture. New Media & Society, 18(1), 117-137. https://doi.org/10.1177/1461444814538646
-Häubl, G., & Trifts, V. (2000). Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids. Marketing Science, 19(1), 4–21. https://doi.org/10.1287/mksc.19.1.4.15178
-Hayes, A. F. (2017). Introduction to Mediation, Moderation, and Conditional Process Analysis (2nd ed.). New York, United States: Guilford publications. ISBN 9781462534654.
-Hilderbrand, L. (2010). The Art of Distribution: Video on Demand. Film Quarterly, 64(2), 24-28. https://doi.org/10.1525/fq.2010.64.2.24
-Horeck, T., Jenner, M., & Kendall, T. (2018). On binge-watching: Nine critical propositions. Critical Studies in Television: The International Journal of Television Studies, 13(4), 499-504. https://doi.org/10.1177/1749602018796754
-Jenner, M. (2014). Is this TVIV? On Netflix, TVIII and binge-watching. New Media & Society, 18(2), 257-273. https://doi.org/10.1177/1461444814541523
-Jenner, M. (2015). Binge-watching: Video-on-demand, quality TV and mainstreaming fandom. International Journal of Cultural Studies, 20(3), 304-320. https://doi.org/10.1177/1367877915606485
-Johnson, C. (2017). Beyond catch-up: VoD interfaces, ITV Hub and the repositioning of television online. Critical Studies in Television: The International Journal of Television Studies, 12(2), 121-138. https://doi.org/10.1177/1749602017698159
-Kaminskas, M., & Bridge, D. (2014). Measuring Surprise in Recommender Systems. Presented at Recommender Systems Evaluation: Dimensions and Design, Silicon Valley, United States. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.707.7596&rep=rep1&type=pdf
-Knijnenburg, B. P., Willemsen, M. C., Gantner, Z., Soncu, H., & Newell, C. (2012). Explaining the user experience of recommender systems. User Modeling and User-Adapted Interaction, 22, 441–504. https://doi.org/10.1007/s11257-011-9118-4
-Konstan, J. A., & Riedl, J. (2012). Recommender systems: from algorithms to user experience. User Modeling and User-Adapted Interaction, 22(1-2), 101-123. https://doi.org/10.1007/s11257-011-9112-x
-Kotkov, D., Konstan, J. A., Zhao, Q., & Veijalainen, J. (2018a). Investigating serendipity in recommender systems based on real user feedback. In Proceedings of the 33rd Annual ACM Symposium on Applied Computing (pp. 1341-1350). Pau, France. https://doi.org/10.1145/3167132.3167276
-Kotkov, D., Veijalainen, J., & Wang, S. (2018b). How does serendipity affect diversity in recommender systems? A serendipity-oriented greedy algorithm. Computing, 102(2), 393-411. https://doi.org/10.1007/s00607-018-0687-5
-Lee, E. (2019, July 9). ‘Friends’ to Leave Netflix for HBO Max, AT&T’s New Streaming Service. Retrieved from https://www.nytimes.com/2019/07/09/business/media/hbo-max-friends-netflix.html 
-Maccatrozzo, V. (2012). Burst the Filter Bubble: Using Semantic Web to Enable Serendipity. In International Semantic Web Conference (pp. 391-398). Berlin, Germany. https://doi.org/10.1007/978-3-642-35173-0_28
-Maccatrozzo, V., van Everdingen, E., Aroyo, L., & Schreiber, G. (2017a). Everybody, More or Less, likes Serendipity. In Adjunct Publication of the 25th Conference on User Modeling, Adaptation and Personalization (pp. 29-34). Bratislava, Slovakia. https://doi.org/10.1145/3099023.3099064
-Maccatrozzo, V., Terstall, M., Aroyo, L., & Schreiber, G. (2017b). SIRUP: Serendipity in Recommendations via User Perceptions. In Proceedings of the 22nd International Conference on Intelligent User Interfaces (pp. 35-44). Limassol, Cyprus. https://doi.org/10.1145/3025171.3025185
-Malhotra, N. K. (1982). Information Load and Consumer Decision Making. Journal of Consumer Research, 8(4), 419-430. https://doi.org/10.1086/208882
-Matrix, S. (2014). The Netflix Effect: Teens, Binge Watching, and On-Demand Digital Media Trends. Jeunesse: Young People, Texts, Cultures, 6(1), 119–138. https://doi.org/10.1353/jeu.2014.0002 
-Matt, C., Benlian, A., Hess, T., & Weiß, C. (2014). Escaping from the Filter Bubble? The Effects of Novelty and Serendipity on Users’ Evaluations of Online Recommendations. Presented at the Thirty Fifth International Conference on Information Systems, Auckland, New Zealand. Retrieved from https://www.researchgate.net/publication/272723200_Escaping_from_the_Filter_Bubble_The_Effects_of_Novelty_and_Serendipity_on_Users'_Evaluations_of_Online_Recommendations 
-Matthews, B., & Ross, L. (2010). Research Methods. A practical guide for the social sciences. Harlow, United Kingdom: Pearson Education.
-Möller, J., Trilling, D., Helberger, N., & van Es, B. (2018). Do not blame it on the algorithm: an empirical assessment of multiple recommender systems and their impact on content diversity. Information, Communication & Society, 21(7), 959-977. https://doi.org/10.1080/1369118X.2018.1444076
-Nguyen, T. T., Hui, P. M., Harper, F. M., Terveen, L., & Konstan, J. A. (2014). Exploring the filter bubble: the effect of using recommender systems on content diversity. In Proceedings of the 23rd International Conference on World Wide Web (pp. 677-686). Seoul, Korea. https://doi.org/10.1145/2566486.2568012
-O’Reilly, T., & Battelle, J. (2009). Web squared: Web 2.0 five years on (1st ed.). Retrieved from https://books.google.nl/books?hl=nl&lr=&id=UC5sB9xS9E0C&oi=fnd&pg=PT3&dq=Web+squared:+Web+2.0+five+years+on.+&ots=GCBrcfFZFr&sig=6VplyujdBH3u8a9KTk8FwcZfHdc#v=onepage&q=Web%20squared%3A%20Web%202.0%20five%20years%20on.&f=false
-Orphanides, K. G. (2019). On YouTube, a network of paedophiles is hiding in plain sight. Retrieved from https://www.wired.co.uk/article/youtube-pedophile-videos-advertising
-Pallant, J. (2016). SPSS Survival Manual (6th ed.). McGraw-Hill: Open University Press. ISBN-13: 978-0-33-526154-3
-Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. New York, United States: The Penguin Press. eISBN 978-1-101-51512-9
-Pett, M. A., Lackey, N. R., & Sullivan, J. J. (2003). Making sense of factor analysis. Thousand Oaks: Sage Publications. ISBN 0-7619-1950-3
-Pripužić, K., Žarko, I. P., Podobnik, V., Lovrek, I., Čavka, M., Petković, I., … Gojčeta, M. (2013). Building an IPTV VoD recommender system: An experience report. In Proceedings of the 12th International Conference on Telecommunications (pp. 155-162). Zagreb, Croatia. eISBN 978-953-184-180-1
-Ricci, F., Rokach, L., & Shapira, B. (2012). Recommender Systems Handbook (2nd ed.). https://doi.org/10.1007/978-1-4899-7637-6
-Ruvio, A., Shoham, A., & Makovec Brenčič, M. (2008). Consumers' need for uniqueness: short‐form scale development and cross‐cultural validation. International Marketing Review, 25(1), 33-53. https://doi.org/10.1108/02651330810851872
-Saat, N. I. Y., Noah, S. A. M., & Mohd, M. (2018). Towards Serendipity for Content–Based Recommender Systems. International Journal on Advanced Science, Engineering and Information Technology, 8(4-2), 1762-1769. Retrieved from https://www.researchgate.net/profile/Shahrul_Azman_Mohd_Noah/publication/328919677_Towards_Serendipity_for_Content-Based_Recommender_Systems/links/5ca43b1c299bf1b86d60fa21/Towards-Serendipity-for-Content-Based-Recommender-Systems.pdf
-Shaw, L. (2020, April 29). ‘The Last Dance’ Overtakes ‘Tiger King’ as World’s Top Documentary. Retrieved from https://www.bloomberg.com/tosv2.html?vid=&uuid=e0505680-a403-11ea-bacf-59485da4d6c5&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0wNC0yOS8tdGhlLWxhc3QtZGFuY2Utb3ZlcnRha2VzLXRpZ2VyLWtpbmctYXMtd29ybGQtcy10b3AtZG9jdW1lbnRhcnk= 
-Shocker, A., Ben-Akiva, M., Boccara, B., & Nedungadi, P. (1991). Consideration Set Influences on Consumer Decision-Making and Choice: Issues, Models, and Suggestions. Marketing Letter, 2(3), 181–197. https://doi.org/10.1007/BF00554125 
-Silveira, T., Rocha, L., Mourão, F., & Gonçalves, M. (2017). A framework for unexpectedness evaluation in recommendation. In Proceedings of the Symposium on Applied Computing (pp. 1662–1667). https://doi.org/10.1145/3019612.3019760
-Silveira, T., Zhang, M., Lin, X., Liu, Y., & Ma, S. (2019). How good your recommender system is? A survey on evaluations in recommendation. International Journal of Machine Learning and Cybernetics, 10(5), 813-831. https://doi.org/10.1007/s13042-017-0762-9
-Snyder, C. R. (1992). Product Scarcity by Need for Uniqueness Interaction: A Consumer Catch-22 Carousel?. Basic and Applied Social Psychology, 13(1), 9-24. https://doi.org/10.1207/s15324834basp1301_3
-Soares, M., & Viana, P. (2015). Tuning metadata for better movie content-based recommendation systems. Multimedia Tools and Applications, 74(17), 7015-7036. https://doi.org/10.1007/s11042-014-1950-1
-Spohr, D. (2017). Fake news and ideological polarization: Filter bubbles and selective exposure on social media. Business Information Review, 34(3), 150-160. https://doi.org/10.1177/0266382117722446
-Statista Research Department. (2019, December 13). Most popular movie genres in North America from 1995 to 2019. Retrieved from: https://www.statista.com/statistics/188658/movie-genres-in-north-america-by-box-office-revenue-since-1995/ 
-Statista Research Department. (2020a, January 18). Most in-demand TV genres in the U.S. 2019, by share of demand. Retrieved from: https://www.statista.com/statistics/1035741/most-in-demand-tv-genres-us-share/ 
-Statista Research Department. (2020b, February 18). SVOD services: subscriptions in Europe 2018. Retrieved from: https://www.statista.com/statistics/832038/most-popular-svod-services-in-the-eu/
-Tabachnick, B. G., & Fidell, L. S. (2013). Using Multivariate Statistics (6th ed.). Harlow, United Kingdom: Pearson Education. ISBN 1-292-02131-4
-Tian, K. T., Bearden, W. O., & Hunter, G. L. (2001). Consumers’ Need for Uniqueness: Scale Development and Validation. Journal of Consumer Research, 28(1), 50–66. https://doi.org/10.1086/321947
-Towse, R. (2010). A Textbook of Cultural Economics. Cambridge, United Kingdom: Cambridge University Press. ISBN 978-0-521-71702-1
-Van Andel, P. (1994). Anatomy of the Unsought Finding. serendipity: Origin, History, Domains, Traditions, Appearances, Patterns and Programmability. The British Journal for the Philosophy of Science, 45(2), 631-648. https://doi.org/10.1093/bjps/45.2.631
-Van Griethuijsen, R. A. L. F., van Eijck, M. W., Haste, H., den Brok, P. J., Skinner, N. C., Mansour, N., … BouJaoude, S. (2014). Global Patterns in Students’ Views of Science and Interest in Science. Research in Science Education, 45(4), 581–603. https://doi.org/10.1007/s11165-014-9438-6 
-Vozalis, E., & Margaritis, K. G. (2003). Analysis of Recommender Systems’ Algorithms. In The 6th Hellenic European Conference on Computer Mathematics & its Applications (pp. 732-745). Athens, Greece. Retrieved from https://www.researchgate.net/profile/Konstantinos_G_Margaritis/publication/27383115_Analysis_of_Recommender_Systems'_Algorithms/links/0912f50dae2a421daa000000/Analysis-of-Recommender-Systems-Algorithms.pdf
-Wayne, M. L. (2018). Netflix, Amazon, and branded television content in subscription video on-demand portals. Media, Culture & Society, 40(5), 725-741. https://doi.org/10.1177/0163443717736118
-Winter, G. (2000). A Comparative Discussion of the Notion of ‘Validity’ in Qualitative and Quantitative Research. The Qualitative Report, 4(3), 1-14. Retrieved from https://nsuworks.nova.edu/tqr/vol4/iss3/4/ 
-Xiao, B., & Benbasat, I. (2007). E-commerce product recommendation agents: use, characteristics, and impact. MIS quarterly, 31(1), 137-209. https://doi.org/10.2307/25148784 
-Yu, H., Wang, Y., Fan, Y., Meng, S., & Huang, R. (2017, July). Accuracy Is Not Enough: Serendipity Should Be Considered More. In Proceedings of the 11th International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing (pp. 231-241). Torino, Italy. https://doi.org/10.1007/978-3-319-61542-4_22
-Zhang, Y. C., Séaghdha, D. O., Quercia, D., & Jambor, T. (2012). Auralist: introducing serendipity into music recommendation. In Proceedings of the fifth ACM international conference on Web search and data mining (pp. 13–22). https://doi.org/10.1145/2124295.2124300
-
-APPENDIX A. SURVEY
-
-**Please read the text below carefully**
-
-Dear respondent, 
-
-Thank you for participating in this survey regarding recommendations based on consumer characteristics on Video-on-Demand platforms, such as Netflix, Amazon Prime Video and Videoland. Your participation and time contribute greatly to my research. This study is conducted by Anne Claire Kofflard, MA Media and Creative Industry student at Erasmus University Rotterdam. 
-
-To participate in this study, the following requirements apply: 
-- You are subscribed to at least one Video-on-Demand platform
-- You possess your own Video-on-Demand profile without other people watching on that particular profile. See the image below for an example.
-
-
-
-This survey will take approximately 7 minutes. Your answers given in the survey in the survey are confidential, anonymous and handled with care. Participation is voluntary and if there are questions you don’t feel comfortable to answer, feel free to stop. 
-
-If you have any question or concerns, please contact me (Anne Claire Kofflard) via 386160ak@eur.nl. 
-
-If you are willing to participate in this study and agree that your answers are being used for the purpose of this study, please select ‘Agree’. If you do not consent, please select ‘Disagree’ and close this website. 
- Agree
-    Disagree
-
-1. FILTER AND CONTROL QUESTIONS
-
-a. Are you a user of at least one Video-on-demand (VOD) platform?
- Yes
- No
-
-b. Do you have a user profile on a VOD platform where you are the only consumer? See the image below for an example
- Yes
- No
-
-
-
-c. On which VOD platforms do you have your own user profile? Multiple platforms can be selected.
- Netflix
- Disney+
- Amazon Prime Video
- Apple TV
- Hulu
- Videoland
- Ziggo Movies and Series
- NPO start
- Film 1
- Other […text…]
-
-d. What is your most used VOD platform where you have your own user profile? 
- Netflix
- Disney+
- Amazon Prime Video
- Apple TV
- Hulu
- Videoland
- Ziggo Movies and Series
- NPO start
- Film 1
- Other […text…]
-
-2. SERENDIPITY
-
-For the following questions it is important to know what recommendations on VOD platforms are. Recommendations on VOD platforms are personalized selections of TV shows and movies that might be interesting for you to watch. All the movies and TV shows that you see on, for example the homepage on [answer 1d], are considered recommendations. VOD companies base their recommendation on your previous viewing behavior. 
-
-
-The following questions are about the provided recommendations on your most used VOD platform: [answer 1d]. You can have a look at [answer 1d] while answering. To what extent do you agree or disagree with the following statements? 
- 
-Strongly disagreeSomewhat disagreeNeither agree nor disagreeSomewhat agreeStrongly agree1. The recommendations on [answer 1d] suggest TV shows/movie that I have never heard of.2. The recommendations on [answer 1d] influence my decisions to watch TV shows/movies.3. I enjoy recommended TV shows/movies on [answer 1d].4. The recommendations on [answer 1d] are TV shows/movies I would not normally discover on my own. 5. The recommendations on [answer 1d] are different (e.g., in style, genre, topic) from the TV shows/movies I usually watch.6. I am surprised by the TV shows/movies on [answer 1d] that are recommended to me.7. The recommendations on [answer 1d] suggest TV shows/movie that are relevant for me.8. I am satisfied with the TV shows/movies on [answer 1d] that are recommended to me.9. The recommendations on [answer 1d] broadened my interest in a wider selection of TV shows/movies
-
-3. CONSUMER CHARACTERISTICS
-
-a. How many hours do you spent on [answer 1d] per week on average? (no judgement ;))
-[…text…]
-
-b. Knowledge
-To what extent do you agree or disagree with the following statements? 
-
-Strongly disagreeSomewhat disagreeNeither agree nor disagreeSomewhat agreeStrongly agree1. Before watching TV shows/movies on [answer 1d] I do research to find out if it is worth watching.2. I never follow provided recommendations on [answer 1d].3. When I want to watch TV shows/movies, I look through the recommendations on [answer 1d] before I make a decision. 4. When I open [answer 1d], I know exactly what I want to watch.5. When I open [answer 1d], I know exactly what kind of TV shows/movies I prefer.
-c. Broad genre interest
-Which genres are you interested in? Multiple options can be selected. 
- Action
- Comedy
- Romantic comedy
- Last saved by Anne claire Kofflardentary
- Drama
- Historical Drama
- Horror
- Thriller
- Arthouse
- Crime
- Science fiction and fantasy
- Musical 
- Mystery
- War
- Sport
- Western
- Animation
- Other […text…]
-
-d. Users’ need for uniqueness 
-Creative choice
-Strongly disagreeSomewhat disagreeNeither agree nor disagreeSomewhat agreeStrongly agree1. I actively seek to develop my personal uniqueness by watching unique and special TV shows/movies.2. Having an eye for TV shows/movies that are interesting and unusual assists me in establishing a distinctive image.
-Unpopular choice
-Strongly disagreeSomewhat disagreeNeither agree nor disagreeSomewhat agreeStrongly agree3. I enjoy challenging the prevailing taste of people I know by watching something they would not seem to accept.
-Avoidance of similarity
-Strongly disagreeSomewhat disagreeNeither agree nor disagreeSomewhat agreeStrongly agree4. When a TV show/movie I watch(ed) becomes popular among the general public, I begin to value it less.5. I often try to avoid TV shows/movies that I know are watched by the general population.6. The more common a TV show/movie is among the general population, the less interested I am in watching it. 
-Please take a look at some provided recommendations on a VOD platform on the next page. You are able to continue the survey after 30 seconds. 
-
-4. STIMULUS (100% SERENDIPITY)
-
-
-
-The following questions are about the provided recommendations in the image on the previous page/above. Again, recommendations on VOD platforms are all the movies and TV shows that you see on the provided image.
-
-To what extent do you agree or disagree with the following statements?
-Strongly disagreeSomewhat disagreeNeither agree nor disagreeSomewhat agreeStrongly agree1. The recommendations showed in the image suggest TV shows/movies that I have never heard of.2. The recommendations showed in the image influence my decisions to watch TV shows/movies.3.  I enjoy the recommended TV shows/movies showed in the image.4. The recommendations showed in the image are TV shows/movies I would not normally discover on my own.5. The recommendations showed in the image are different (e.g., in style, genre, topic) from the TV shows/movies I usually watch.6. I am surprised by the TV shows/movies that are recommended to me.7. The recommendations showed in the image suggest TV shows/movie that are relevant for me.8. I am satisfied with the recommended TV shows/movies showed in the image.9. The recommendations showed in the image broadened my interest in a wider selection of TV shows/movies.
-
-
-5. DEMOGRAPHICS
-
-a. Age
-[…text…]
-
-b. Gender
- Female 
- Male 
- Prefer not to say
- Other […text…]
-
-c. Nationality 
-[…selection box…]
-
-d. Please select the box of the highest completed educational degree.
- No education
- High school graduate
- Secondary vocational education (MBO)
- Higher professional education (HBO)
- Bachelor’s degree
- Master’s degree
- Doctorate/Phd
-
-Thank you for taking the time to fill in this survey. Your answers are recorded. If you have any questions, please contact me (386160ak@eur.nl).
-
-
-
-APPENDIX B. LINKS STIMULUS
-
-Recommended for you – row
-• Pedersen: https://picsart.com/ja_jp/i/image-freetoedit-stairs-stair-staircase-man-men-dark-301122216118201 
-• Life with kids: https://chewsglutenfree.wordpress.com/tag/fatigue-2/ 
-• Universal City: http://www.previewmag.nl/specials/220615-wat-is-sciencefiction/ 
-• Lieutenant Jones: https://www.itl.cat/wallview/mmRxT_army-soldier-background-wallpaper-army-fight-background/ 
-• Will: https://www.scottcouncil.com/portraits/will-smith/1/ 
-• How K-pop prevails: https://shilpaahuja.com/kpop-fashion/ 
-
-Top 10 in the Netherlands – row
-• To the moon: https://www.shutterstock.com/nl/image-photo/crescent-moon-miniature-men-women-440160910
-• Louisa IX: https://nl.dreamstime.com/stock-foto-vrouw-victoriaanse-kleding-image49318094 
-• Crime Department: https://www.gq.com/story/dropping-knowledge-the-trench-coat
-• Animal Kingdom: https://www.britannica.com/animal/tiger/Tigers-and-humans
-• Kobe Bryant: https://www.artphotolimited.com/us-en/fine-art-photography/sport/team-sports/basketball/photo/l-equipe/kobe-bryant-dunk and https://www.clipart.email/make-a-clipart/?image=19624483 
-• Make up dad: https://www.dreamstime.com/stock-photo-father-daughter-play-funny-time-his-child-playing-home-cute-girl-doing-makeup-to-her-dad-sitting-bed-image90678501 
-
-
-
-Popular – row
-• Amitabh Bachchan: https://www.teahub.io/viewwp/ioThbiT_amitabh-bachchan-old-man/ 
-• Sarah Adams – Flurry: https://www.google.com/search?q=stand+up+comedian&tbm=isch&ved=2ahUKEwi-tK6NyLPpAhVKDOwKHUilArQQ2-cCegQIABAA&oq=stand+up+&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECCMQJzoECAAQQzoFCAAQgwFQzpsEWO6iBGD3qQRoAHAAeACAAUaIAe8Dkg
-• Safari Fiesta: http://www.foodfilmfestival.nl/2013/nl/nieuws/45-FFF_loves_animatie_Rollin_Safari.html 
-• Living dead: https://hubpages.com/holidays/Awesome-Halloween-Music 
-• Crush: https://www.freepik.com/premium-photo/front-view-group-friends-swimming-pool-party-celebrating-with-white-wine-champagne_6439522.htm 
-• Leonardo DiCaprio: https://wildaid.org/leo-dicaprio-2/ 
-
-Trending – row
-• Aqua Peligrosa: https://funnyjunk.com/Someone+in+water/funny-pictures/5637535/
-• Crossing: https://lexusenthusiast.com/2016/05/10/autotrader-lexus-lcertified-is-the-top-pre-certified-luxury-program-in-the-usa/ 
-• Gränslös: https://www.nu.nl/cd-recensies/3669109/ricky-koole---use-crying.html
-• Hunter: https://www.shutterstock.com/nl/video/clip-10258106-car-explosion-on-field-sedan-side-view
-• Spenser: https://www.freepik.com/premium-photo/asian-fat-man-eating-donuts-plate_5050576.htm 
-• A dog’s world: https://www.pexels.com/photo/adorable-blur-breed-close-up-406014/ 
-
-Because you watched Friends – row
-• NPH: http://onegrandbooks.com/shop/curators/neil-patrick-harris/
-• Dinner Plans: https://nl.pinterest.com/pin/67624431889303040/
-• Our Nature by David: http://www.labellecampagne.fr/
-• Father’s Day: https://teamtrips.com.au/brisbane-cricket-trips-the-don-package.html
-• On trial: https://www.theatermania.com/shows/new-york-city-theater/off-broadway/the-courtroom_333203
-• 30: https://www.menshealth.com/uk/health/a749881/13-tips-to-combat-a-hangover/ 
-
-
-APPENDIX C. DESCRIPTIVE STATISTICS
-
-Table 1: Descriptive statistics: gender, nationality and highest completed education with N = 290
-VariableNumber of participantsPercentage of participantsGender
-Female
-Male
-Prefer not to say
-Other
-174
-114
-1
-1
-60,0%
-39,3%
-0,3%
-0,3%Highest completed education
-No education
-High school graduate
-Secondary vocational education (MBO)
-Higher Professional education (HBO)
-Bachelor’s degree
-Master’s degree
-Doctorate/Phd
-1
-47
-13
-30
-99
-94
-6
-0,3%
-16,2%
-4,5%
-10,3%
-34,1%
-32,4%
-2,1%
-
-
-
-Table 2: Descriptive statistics: Nationality
-VariableNumber of participantsPercentage of participantsNationality
-Austria
-Belgium
-Brazil
-Bulgaria
-Canada
-Congo, Republic of the…
-Czech Republic
-Denmark
-Dominican Republic
-France
-Germany
-Greece
-Hongkong (S.A.R.)
-Hungary
-India
-Italy
-Luxembourg
-Netherlands
-Norway
-Poland
-Portugal
-Republic of Korea
-Romania
-Russian Federation
-Slovenia
-Spain
-Sweden
-United Kingdom of Great Britain and Northern Ireland
-United States of America
-Venezuela, Bolivarian Republic of… 
-1
-1
-1
-2
-2
-1
-1
-2
-1
-1
-20
-2
-1
-1
-4
-3
-1
-193
-1
-10
-1
-1
-1
-1
-2
-1
-1
-22
-
-7
-4
-0,3%
-0,3%
-0,3%
-0,7%
-0,7%
-0,3%
-0,3%
-0,7%
-0,3%
-0,3%
-6,9%
-0,7%
-0,3%
-0,3%
-1,4%
-1,0%
-0,3%
-66,6%
-0,3%
-3,4%
-0,3%
-0,3%
-0,3%
-0,3%
-0,7%
-0,3%
-0,3%
-7,6%
-
-2,4%
-1,4%
-
-1 www.netflix.com
-2 www.primevideo.com 
-3 www.hulu.com
-4 www.videoland.com
-5 www.disneyplus.com 
-6 www.youtube.com 
-7 www.vimeo.com 
-8 https://www.imdb.com/ 
----------------
-
-------------------------------------------------------------
-
----------------
-
-------------------------------------------------------------
-
-
-
-
-
-
-
-1
-
-
